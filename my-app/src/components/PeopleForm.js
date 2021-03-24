@@ -5,16 +5,26 @@ class PeopleForm extends React.Component {
     console.log("------");
     console.log(props.fields);
     console.log("------");
-    this.state = {value: ''};
+    this.state = props.fields.reduce((acc,curr)=> (acc[curr]='',acc),{});
+    // this.state = {value: ''}
+    const test = props.fields.reduce((acc,curr)=> (acc[curr]='',acc),{});
+    console.log(this.state);
 
-
-
+    this.handleChangeTest = this.handleChangeTest.bind(this);
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
   }
 
+  handleChangeTest(event) {
+    var dynObj = {}
+    dynObj[event.target.id] = event.target.value
+    this.setState(dynObj);
+    console.log(event);
+  }
+
   handleChange(event) {
     this.setState({value: event.target.value});
+    console.log(event);
   }
 
   handleSubmit(event) {
@@ -25,15 +35,17 @@ class PeopleForm extends React.Component {
 
   render(){
     return(
-      <form>
-      {this.props.fields.map((fields, i) => {
+      <form onSubmit={this.handleSubmit}>
+      {this.props.fields.map((field, i) => {
         return (
           <label>
-          {fields}:
-          <input type="text" id={fields} />
+          {field}:
+          <input type="text" id={field} value={this.state[field]} onChange={this.handleChangeTest} />
+          {console.log(this.state[field])}
           </label>
         );
       })}
+      <input type="submit" value="Submit" />
       </form>
     )
   }
