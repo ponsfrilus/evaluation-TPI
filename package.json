@@ -1,0 +1,23 @@
+{
+  "name": "tpi-maker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaphireVert/tpi-maker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SaphireVert/tpi-maker/issues"
+  },
+  "homepage": "https://github.com/SaphireVert/tpi-maker#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-cli": "^0.3.1"
+  }
+}
