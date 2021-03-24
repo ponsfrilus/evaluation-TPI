@@ -18,23 +18,24 @@ class PeopleForm extends React.Component {
   }
 
   handleSubmit(event) {
+    console.log(this.test);
     alert('A name was submitted: ' + this.state.value);
     event.preventDefault();
   }
 
   render(){
-    {var test = this.props.fields.map((fields, i) => {
-      return (
-        <form onSubmit={this.handleSubmit}>
+    return(
+      <form>
+      {this.props.fields.map((fields, i) => {
+        return (
           <label>
-            {fields}:
-            <input type="text" value={this.state.value} onChange={this.handleChange} />
+          {fields}:
+          <input type="text" id={fields} />
           </label>
-          <input type="submit" value="Submit" />
-        </form>
-      );
-    })}
-    return test;
+        );
+      })}
+      </form>
+    )
   }
 }
 
