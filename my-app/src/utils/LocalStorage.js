@@ -3,6 +3,10 @@ const LocalStorageSave = () => {
   for (let inp of inputs) {
     localStorage.setItem(inp.id, inp.value);
   }
+  const textarea = document.querySelectorAll('textarea')
+  for (let ta of textarea) {
+    localStorage.setItem(ta.id, ta.value);
+  }
   
   // var testObject = { 'one': 1, 'two': 2, 'three': 3 };
   // localStorage.setItem("myFabulousData", JSON.stringify(testObject));
@@ -13,6 +17,11 @@ const LocalStorageLoad = () => {
   for (let inp of inputs) {
     let curr_val = localStorage.getItem(inp.id);
     document.getElementById(inp.id).value = curr_val;
+  }
+  const textarea = document.querySelectorAll('textarea')
+  for (let ta of textarea) {
+    let curr_val = localStorage.getItem(ta.id);
+    document.getElementById(ta.id).value = curr_val;
   }
   console.log("Something has been loaded... maybe");
 }

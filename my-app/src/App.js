@@ -19,6 +19,7 @@ function App() {
   // TODO: Not sure about the useEffect, something simpler may works too
   //       It's maybe just possible to use a "require" or "import" on a json file...
   useEffect(() => {
+
     fetch('./data/evaluationGrid.json')
     .then(response => {
       if (response.ok) {
@@ -38,14 +39,16 @@ function App() {
     })
   }, []);
 
+  useEffect(() => {
+    LocalStorageLoad();
+  });
+
   if (loading) return "Loading...";
   if (error) return "Error!";
 
   return (
     <div>
-      <button onClick={(e) => LocalStorageSave(e)}>SAVE TEST</button>
-      <button onClick={(e) => LocalStorageLoad(e)}>Load TEST</button>
-      <form name={`tpi-evaluation-form`} id={`tpi-evaluation-form`}>
+      <form name={`tpi-evaluation-form`} id={`tpi-evaluation-form`} onChange={(e) => LocalStorageSave(e)}>
         <div className="evaluationPersons">
           <PeopleForm fieldPrefix="cdp" fields={["Entreprise formatrice/Chef de Projet", "Téléphone", "Email"]}/>
           <PeopleForm fieldPrefix="cand" fields={["Candidat/-e", "Téléphone", "Email"]}/>
