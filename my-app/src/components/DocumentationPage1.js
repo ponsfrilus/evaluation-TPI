@@ -21,18 +21,18 @@ class DocumentationPage1 extends React.Component {
         <p>
           Le/la chef/-e de projet du TPI etles experts/expertes évaluent les compétences professionnelles élargies, le résultat et les compétences professionnelles.<br />
           L’évaluation du TPI est répartie comme suit :
-          <ul>
-            <li>Partie A: Compétences professionnelles (20 critères)
-              <ul>
-                <li>-6 critères relatifs à l’analyse et au concept</li>
-                <li>-7 critères relatifs à la réalisation, aux tests et au résultats du TPI</li>
-                <li>-7 critères spécifiques à la tâche demandée par le supérieur professionnel</li>
-              </ul>
-            </li>
-            <li>Partie B: Documentation / rapport du TPI (10 critères)</li>
-            <li>Partie C: Entretien professionnel et présentation (10 critères)</li>
-          </ul>
         </p>
+        <ul>
+          <li>Partie A: Compétences professionnelles (20 critères)
+            <ul>
+              <li>-6 critères relatifs à l’analyse et au concept</li>
+              <li>-7 critères relatifs à la réalisation, aux tests et au résultats du TPI</li>
+              <li>-7 critères spécifiques à la tâche demandée par le supérieur professionnel</li>
+            </ul>
+          </li>
+          <li>Partie B: Documentation / rapport du TPI (10 critères)</li>
+          <li>Partie C: Entretien professionnel et présentation (10 critères)</li>
+        </ul>
       </div>
     )
   }

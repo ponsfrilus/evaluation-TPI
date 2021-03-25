@@ -12,6 +12,7 @@ const LocalStorageSave = () => {
   // localStorage.setItem("myFabulousData", JSON.stringify(testObject));
   console.log("Something has been saved... maybe");
 }
+
 const LocalStorageLoad = () => {
   const inputs = document.querySelectorAll('input')
   for (let inp of inputs) {
@@ -25,4 +26,18 @@ const LocalStorageLoad = () => {
   }
   console.log("Something has been loaded... maybe");
 }
-export {LocalStorageSave, LocalStorageLoad};
+
+const LocalStorageClear = () => {
+  const inputs = document.querySelectorAll('input')
+  for (let inp of inputs) {
+    document.getElementById(inp.id).value = '';
+  }
+  const textarea = document.querySelectorAll('textarea')
+  for (let ta of textarea) {
+    document.getElementById(ta.id).value = '';
+  }
+  localStorage.clear();
+  console.log("Something has been cleared... maybe");
+}
+
+export {LocalStorageSave, LocalStorageLoad, LocalStorageClear};

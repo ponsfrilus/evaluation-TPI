@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import React, { useState, useEffect } from 'react'
 import {PeopleForm} from './components/PeopleForm.js';
@@ -8,7 +7,7 @@ import {EvaluationSummary} from './components/EvaluationSummary.js';
 import {EvaluationComment} from './components/EvaluationComment.js';
 import {EvaluationSign} from './components/EvaluationSign.js';
 
-import {LocalStorageSave, LocalStorageLoad} from './utils/LocalStorage.js';
+import {LocalStorageSave, LocalStorageLoad, LocalStorageClear} from './utils/LocalStorage.js';
 
 function App() {
   // https://www.freecodecamp.org/news/fetch-data-react/
@@ -48,6 +47,7 @@ function App() {
 
   return (
     <div>
+    <button onClick={() => LocalStorageClear()}>CLEAR</button>
       <form name={`tpi-evaluation-form`} id={`tpi-evaluation-form`} onChange={(e) => LocalStorageSave(e)}>
         <div className="evaluationPersons">
           <PeopleForm fieldPrefix="cdp" fields={["Entreprise formatrice/Chef de Projet", "Téléphone", "Email"]}/>
@@ -60,7 +60,7 @@ function App() {
           { /*get first level of data key, e.g. Partie A*/ }
           {Object.entries(data).map((el, idx) => {
             { /*Display each part title*/ }
-            return (<div className={`${el[0]} eval_part`}>
+            return (<div className={`${el[0]} eval_part`} key={`${el[0]}_key`}>
               <h2>{el[0]}</h2>
               { /*Loop over each part data*/ }
               {el[1].line.map((el, idx) => (
