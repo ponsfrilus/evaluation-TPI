@@ -17,7 +17,7 @@ class EvaluationGridLine extends React.Component {
           <input type="number" id={`${this.props.data.id}_pts`} key={`${this.props.data.id}_pts`} min={0} max={3} step={1} size={1} />
         </div>
         <div key={`${this.props.data.id}_EvaluationGridLineJustification`} className="EvaluationGridElement EvaluationGridLineJustification">
-          <textarea type="text" id={`${this.props.data.id}_justification`} key={`${this.props.data.id}_justification`} col={40} rows={5} ></textarea>
+          <textarea type="text" id={`${this.props.data.id}_justification`} key={`${this.props.data.id}_justification`} cols={40} rows={5} ></textarea>
         </div>
       </div>
     )
