@@ -35,18 +35,17 @@ class PeopleForm extends React.Component {
 
   render(){
     return(
-      <form onSubmit={this.handleSubmit}>
+      <div className={`PeopleForm ${this.props.fieldPrefix}`} >
       {this.props.fields.map((field, i) => {
         return (
           <label>
           {field}:
-          <input type="text" id={field} value={this.state[field]} onChange={this.handleChangeTest} />
+          <input type="text" id={this.props.fieldPrefix + "_" + field} value={this.state[field]} onChange={this.handleChangeTest} />
           {console.log(this.state[field])}
           </label>
         );
       })}
-      <input type="submit" value="Submit" />
-      </form>
+      </div>
     )
   }
 }
