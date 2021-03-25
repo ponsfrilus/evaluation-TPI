@@ -31,9 +31,9 @@ class PeopleForm extends React.Component {
       <div className={`PeopleForm ${this.props.fieldPrefix}`} >
       {this.props.fields.map((field, i) => {
         return (
-          <label>
-          {field}:
-          <input type="text" id={this.props.fieldPrefix + "_" + field} value={`${this.state[this.props.fieldPrefix + "_" + field]}`} onChange={this.handleChangeTest} />
+          <label><br />
+            {field}:
+            <input type="text" id={this.props.fieldPrefix + "_" + field} value={`${this.state[this.props.fieldPrefix + "_" + field]}`} onChange={this.handleChangeTest} />
           </label>
         );
       })}
