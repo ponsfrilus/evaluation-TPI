@@ -14,10 +14,10 @@ class EvaluationGridLine extends React.Component {
           {this.props.data.description}
         </div>
         <div key={`${this.props.data.id}_EvaluationGridLinePt`} className="EvaluationGridLinePt">
-          <input type="text" id="A1_pts" value=""/>
+          <input type="text" id={`${this.props.data.id}_pts`} />
         </div>
         <div key={`${this.props.data.id}_EvaluationGridLineJustification`} className="EvaluationGridLineJustification">
-          <input type="text" id="A1_justification" value=""/>
+          <input type="text" id={`${this.props.data.id}_justification`} />
         </div>
       </div>
     )
