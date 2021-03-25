@@ -67,15 +67,16 @@ function App() {
           console.log("Debug:", el, idx)
           { /*Display each part title*/ }
           //console.log("el", el[1])
-          console.log("line → ", el[1].line)
-          el[1].line.map((el, idx) => {
-            console.log(el, idx)
-          })
+          //console.log("line → ", el[1].line)
+
           return (<div className="{el[0]}">
             <h2>{el[0]}</h2>
             { /*Loop over each part data*/ }
+            {el[1].line.map((el, idx) => (
+              <EvaluationGridLine data={el} />
+            ))}
           </div>)
-          { /*call EvaluationGridLine for each line*/ }
+          { /*call  for each line*/ }
         })}
       </div>
       <div className="evaluationSummary">evaluationSummary</div>
