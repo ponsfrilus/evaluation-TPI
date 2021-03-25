@@ -4,6 +4,7 @@ import {PeopleForm} from './components/PeopleForm.js';
 import {EvaluationGridLine} from './components/EvaluationGridLine.js';
 import {DocumentationPage1} from './components/DocumentationPage1.js';
 import {EvaluationSummary} from './components/EvaluationSummary.js';
+import {EvaluationTable} from './components/EvaluationTable.js';
 import {EvaluationComment} from './components/EvaluationComment.js';
 import {EvaluationSign} from './components/EvaluationSign.js';
 
@@ -71,6 +72,9 @@ function App() {
         </div>
         <div className="evaluationSummary">
           <EvaluationSummary />
+        </div>
+        <div className="evaluationTable">
+          <EvaluationTable />
         </div>
         <div className="evaluationComment">
           <EvaluationComment />
