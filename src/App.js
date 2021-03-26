@@ -52,40 +52,43 @@ function App() {
       <button onClick={ () => window.print() } className="hideforprint">
         Print
       </button>
-      <form name={`tpi-evaluation-form`} id={`tpi-evaluation-form`} onChange={(e) => LocalStorageSave(e)}>
-        <div className="evaluationPersons">
-          <PeopleForm fieldPrefix="cdp" fields={["Entreprise formatrice/Chef de Projet", "Téléphone", "Email"]}/>
-          <PeopleForm fieldPrefix="cand" fields={["Candidat/-e", "Téléphone", "Email"]}/>
-          <PeopleForm fieldPrefix="exp1" fields={["Expert 1", "Téléphone", "Email"]}/>
-          <PeopleForm fieldPrefix="exp2" fields={["Expert 2", "Téléphone", "Email"]}/>
-        </div>
-        <DocumentationPage1 />
-        <div className="evaluationGrid">
-          { /*get first level of data key, e.g. Partie A*/ }
-          {Object.entries(data).map((el, idx) => {
-            /*Display each part title*/
-            return (<div className={`${el[0]} eval_part`} key={`${el[0]}_key`}>
-              <h2>{el[0]}</h2>
-              { /*Loop over each part data*/ }
-              {el[1].line.map((el, idx) => (
-                <EvaluationGridLine data={el} />
-              ))}
-            </div>)
-          })}
-        </div>
-        <div className="evaluationSummary">
-          <EvaluationSummary />
-        </div>
-        <div className="evaluationTable">
-          <EvaluationTable />
-        </div>
-        <div className="evaluationComment">
-          <EvaluationComment />
-        </div>
-        <div className="evaluationSign">
-          <EvaluationSign />
-        </div>
-      </form>
+      <div className="container">
+        <form name={`tpi-evaluation-form`} id={`tpi-evaluation-form`} onChange={(e) => LocalStorageSave(e)}>
+          <div className="evaluationPersons">
+            <PeopleForm fieldPrefix="cdp" fields={["Entreprise formatrice/Chef de Projet", "Téléphone", "Email"]}/>
+            <PeopleForm fieldPrefix="cand" fields={["Candidat/-e", "Téléphone", "Email"]}/>
+            <PeopleForm fieldPrefix="exp1" fields={["Expert 1", "Téléphone", "Email"]}/>
+            <PeopleForm fieldPrefix="exp2" fields={["Expert 2", "Téléphone", "Email"]}/>
+          </div>
+          <DocumentationPage1 />
+          <div className="evaluationGrid">
+            { /*get first level of data key, e.g. Partie A*/ }
+            {Object.entries(data).map((el, idx) => {
+              /*Display each part title*/
+              return (<div className={`${el[0]} evaluationPart`} key={`${el[0]}_key`}>
+                <h2 className={`evaluationPartTitle`}>{el[0]}</h2>
+                { /*Loop over each part data*/ }
+                {el[1].line.map((el, idx) => (
+                  <EvaluationGridLine data={el} />
+                ))}
+              </div>)
+            })}
+          </div>
+          <div className="pagebreak"></div>
+          <div className="evaluationSummary">
+            <EvaluationSummary />
+          </div>
+          <div className="evaluationTable">
+            <EvaluationTable />
+          </div>
+          <div className="evaluationComment">
+            <EvaluationComment />
+          </div>
+          <div className="evaluationSign">
+            <EvaluationSign />
+          </div>
+        </form>
+      </div>
     </div>
   )
 }
