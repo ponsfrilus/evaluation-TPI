@@ -9,24 +9,34 @@ body {
   border: 1px solid black;
 
 }
-.EvaluationGridLine {
-  border: 1px solid black;
-  margin: 5px;
+.evaluationGrid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }
+
+.EvaluationGridLine {
+  display: flex;
+}
+
 .EvaluationGridElement {
-  display: inline-block;
-  padding: 10px 10px 10px 10px;
-  margin: 10px 10px 10px 10px;
+  border: 1px solid black;
+}
+
+.EvaluationGridLineID {
+  flex: 0 0 50px;
+}
+
+.EvaluationGridLineQuestion {
+  flex: 0 0 25%;
 }
 
 .EvaluationGridLinePt {
-  width: 10px;
-  padding-right: 40px;
+  flex: 0 0 50px;
 }
 
 .EvaluationGridLineJustification {
-  cols: 40;
-  rows: 5;
 }
 
 .EvaluationSignContainer {
