@@ -48,8 +48,8 @@ function App() {
 
   return (
     <div>
-      <button onClick={ () => LocalStorageClear() }>CLEAR</button>
-      <button onClick={ () => window.print() } className="noPrint">
+      <button onClick={ () => LocalStorageClear() } className="hideforprint">CLEAR</button>
+      <button onClick={ () => window.print() } className="hideforprint">
         Print
       </button>
       <form name={`tpi-evaluation-form`} id={`tpi-evaluation-form`} onChange={(e) => LocalStorageSave(e)}>
