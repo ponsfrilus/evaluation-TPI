@@ -85,3 +85,14 @@ body {
 .divTableBody {
   display: table-row-group;
 }
+
+@media print {
+  input, textarea {
+    border: 0;
+    padding:0;
+    overflow:visible;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+}
