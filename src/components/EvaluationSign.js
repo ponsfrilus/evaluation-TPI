@@ -1,9 +1,5 @@
 import React from 'react'
 class EvaluationSign extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-  
   render(){
     return(
       <div className={`EvaluationSign`}>
@@ -50,12 +46,12 @@ class EvaluationSign extends React.Component {
               <div className="textLine"></div>
             </p>
             <p>
-              Signature 
+              Signature
               <div className="textLine"></div>
             </p>
           </div>
         </div>
-        
+
       </div>
     )
   }

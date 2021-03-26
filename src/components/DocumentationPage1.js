@@ -1,9 +1,5 @@
 import React from 'react'
 class DocumentationPage1 extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-  
   render(){
     return(
       <div className={`DocumentationPage1`}>

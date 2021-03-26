@@ -60,7 +60,7 @@ function App() {
         <div className="evaluationGrid">
           { /*get first level of data key, e.g. Partie A*/ }
           {Object.entries(data).map((el, idx) => {
-            { /*Display each part title*/ }
+            /*Display each part title*/
             return (<div className={`${el[0]} eval_part`} key={`${el[0]}_key`}>
               <h2>{el[0]}</h2>
               { /*Loop over each part data*/ }

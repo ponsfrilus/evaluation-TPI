@@ -1,9 +1,5 @@
 import React from 'react'
 class PeopleForm extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render(){
     return(
       <div className={`PeopleForm ${this.props.fieldPrefix}`} >

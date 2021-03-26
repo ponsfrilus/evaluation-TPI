@@ -1,9 +1,5 @@
 import React from 'react'
 class EvaluationTable extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return(
       <div className={`EvaluationSummary`}>

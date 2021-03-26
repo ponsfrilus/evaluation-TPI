@@ -1,9 +1,5 @@
 import React from 'react'
 class EvaluationGridLine extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render(){
     return(
       <div key={`${this.props.data.id}_EvaluationGridLine`} className={`EvaluationGridLine`}>
