@@ -1,0 +1,183 @@
+{
+  "Partie A":{
+    "part": "A",
+    "name":"Compétences professionnelles",
+    "total_txt":"Total partie 1 (60points max)",
+    "line": [
+      {
+        "id": "A1",
+        "description":"Gestion de projet et planification"
+      },
+      {
+        "id": "A2",
+        "description": "Acquisition du savoir"
+      },
+      {
+        "id": "A3",
+        "description": "Calendrier / planification"
+      },
+      {
+        "id": "A4",
+        "description": "Compréhension conceptuelle"
+      },
+      {
+        "id": "A5",
+        "description": "Environnement de projet: limites du système / interfaces avec le monde extérieur"
+      },
+      {
+        "id": "A6",
+        "description": "Test de la solution (planification et exécution)"
+      },
+      {
+        "id": "A7",
+        "description": "Volonté de performance / engagement / attitude au travail / mise en œuvre"
+      },
+      {
+        "id": "A8",
+        "description": "Autonomie de travail"
+      },
+      {
+        "id": "A9",
+        "description": "Connaissances professionnelles et application adéquate"
+      },
+      {
+        "id": "A10",
+        "description": "Utilisation du jargon / terminologie métier appropriée"
+      },
+      {
+        "id": "A11",
+        "description": "Procédure de travail et méthode professionnelle"
+      },
+      {
+        "id": "A12",
+        "description": "Organisation des résultats du travail"
+      },
+      {
+        "id": "A13",
+        "description": "Performance"
+      },
+      {
+        "id": "A14",
+        "description": "Point techniques évalués spécifiques au projet 1"
+      },
+      {
+        "id": "A15",
+        "description": "Point techniques évalués spécifiques au projet 2"
+      },
+      {
+        "id": "A16",
+        "description": "Point techniques évalués spécifiques au projet 3"
+      },
+      {
+        "id": "A17",
+        "description": "Point techniques évalués spécifiques au projet 4"
+      },
+      {
+        "id": "A18",
+        "description": "Point techniques évalués spécifiques au projet 5"
+      },
+      {
+        "id": "A19",
+        "description": "Point techniques évalués spécifiques au projet 6"
+      },
+      {
+        "id": "A20",
+        "description": "Point techniques évalués spécifiques au projet 7"
+      }
+    ]
+  },
+  "Partie B":{
+    "part": "B",
+    "name":"Documentation / Rapport TPI",
+    "total_txt":"Total partie 2 (30points max)",
+    "line": [
+      {
+        "id": "B1",
+      "description":"Résumé du rapport du TPI / version succincte de la doc."}
+      ,
+      {
+        "id": "B2",
+      "description":"Tenue du journal de travail"}
+      ,
+      {
+        "id": "B3",
+      "description":"Capacité de réflexion"}
+      ,
+      {
+        "id": "B4",
+      "description":"Structure"}
+      ,
+      {
+        "id": "B5",
+      "description":"Pertinence"}
+      ,
+      {
+        "id": "B6",
+      "description":"Respect des prescriptions formelles durapport du TPI"}
+      ,
+      {
+        "id": "B7",
+      "description":"Expression écrite et style / orthographe et grammaire"}
+      ,
+      {
+        "id": "B8",
+      "description":"Présentation"}
+      ,
+      {
+        "id": "B9",
+      "description":"Graphiques, images, diagrammes et tableaux"}
+      ,
+      {
+        "id": "B10",
+      "description":"Documentation de la procédure de tests et de ses résultats"}
+
+    ]
+  },
+  "Partie C":{
+    "part": "C",
+    "name":"Entretien professionnel et présentation",
+    "total_txt":"Total partie 3 (30points max)",
+    "line":  [
+      {
+        "id": "C1",
+      "description":"Gestion du temps, structure"}
+      ,
+      {
+        "id": "C2",
+      "description":"Présentation : utilisation de médias, aspects techniques"}
+      ,
+      {
+        "id": "C3",
+      "description":"Technique de présentation"}
+      ,
+      {
+        "id": "C4",
+      "description":"Echange d'information avec les experts durant le TPI"}
+      ,
+      {
+        "id": "C5",
+      "description":"Question des experts 1"}
+      ,
+      {
+        "id": "C6",
+      "description":"Question des experts 2"}
+      ,
+      {
+        "id": "C7",
+      "description":"Question des experts 3"}
+      ,
+      {
+        "id": "C8",
+      "description":"Question des experts 4"}
+      ,
+      {
+        "id": "C9",
+      "description":"Question des experts 5"}
+      ,
+      {
+        "id": "C10",
+      "description":"Question des experts 6"}
+
+    ]
+  }
+}
