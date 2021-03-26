@@ -11,30 +11,30 @@ class EvaluationSummary extends React.Component {
               <div className="divTableCell">Nombre de points max</div>
               <div className="divTableCell">Points obtenus</div>
             </div>
-              <div className="divTableRow">
+            <div className="divTableRow">
               <div className="divTableCell">Partie A: Compétences professionnelles</div>
               <div className="divTableCell">60</div>
-            <div className="divTableCell">&nbsp;</div>
+              <div className="divTableCell partMarkSum" id="partAMarkSum">?</div>
             </div>
             <div className="divTableRow">
               <div className="divTableCell">Partie B:Documentation / rapport du TPI</div>
               <div className="divTableCell">30</div>
-              <div className="divTableCell">&nbsp;</div>
+              <div className="divTableCell partMarkSum" id="partBMarkSum">&nbsp;</div>
             </div>
-              <div className="divTableRow">
+            <div className="divTableRow">
               <div className="divTableCell">Partie C:Entretien professionnel et présentation</div>
               <div className="divTableCell">30</div>
-              <div className="divTableCell">&nbsp;</div>
+              <div className="divTableCell partMarkSum" id="partCMarkSum">&nbsp;</div>
             </div>
             <div className="divTableRow">
               <div className="divTableCell">Somme de A + B + C</div>
               <div className="divTableCell">120</div>
-              <div className="divTableCell">&nbsp;</div>
+              <div className="divTableCell" id="partTotMarkSum">&nbsp;</div>
             </div>
             <div className="divTableRow">
               <div className="divTableCell">Note (5 * somme / 120) + 1</div>
               <div className="divTableCell">&nbsp;</div>
-              <div className="divTableCell">&nbsp;</div>
+              <div className="divTableCell" id="partFinGrade">&nbsp;</div>
             </div>
           </div>
         </div>
