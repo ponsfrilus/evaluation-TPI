@@ -6,7 +6,7 @@ class PeopleForm extends React.Component {
       {this.props.fields.map((field, i) => {
         return (
           <label key={this.props.fieldPrefix + "_" + field + "_label"}><br />
-            {field}:
+            {field}:<br />
             <input type="text" id={this.props.fieldPrefix + "_" + field} key={this.props.fieldPrefix + "_" + field} />
           </label>
         );
