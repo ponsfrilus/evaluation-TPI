@@ -12,10 +12,10 @@ class EvaluationGridLine extends React.Component {
           {this.props.data.description}
         </div>
         <div key={`${this.props.data.id}_EvaluationGridLinePt`} className="EvaluationGridElement EvaluationGridLinePt" onChange={() => ptsChange()}>
-          <input type="number" id={`${this.props.data.id}_pts`} key={`${this.props.data.id}_pts`} min={0} max={3} step={1} size={1} className="EvaluationMark" />
+          <input type="number" id={`${this.props.data.id}_pts`} key={`${this.props.data.id}_pts`} min={0} max={3} step={1} className="EvaluationMark" />
         </div>
         <div key={`${this.props.data.id}_EvaluationGridLineJustification`} className="EvaluationGridElement EvaluationGridLineJustification">
-          <textarea type="text" id={`${this.props.data.id}_justification`} key={`${this.props.data.id}_justification`} cols={37} rows={3} ></textarea>
+          <textarea id={`${this.props.data.id}_justification`} key={`${this.props.data.id}_justification`} cols={37} rows={3} ></textarea>
         </div>
       </div>
     )
