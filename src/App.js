@@ -53,14 +53,16 @@ function App() {
         Print
       </button>
       <div className="container">
+        <h1>Procédure de qualification&thinsp;: 88600/1/2/3 Informaticienne CFC/Informaticien CFC (Ordonnance 2014)</h1>
+        <DocumentationPage1 />
         <form name={`tpi-evaluation-form`} id={`tpi-evaluation-form`} onChange={(e) => LocalStorageSave(e)}>
+          <h2 className={`intervenants`}>Intervenants</h2>
           <div className="evaluationPersons">
             <PeopleForm fieldPrefix="cdp" fields={["Entreprise formatrice/Chef de Projet", "Téléphone", "Email"]}/>
             <PeopleForm fieldPrefix="cand" fields={["Candidat/-e", "Téléphone", "Email"]}/>
             <PeopleForm fieldPrefix="exp1" fields={["Expert 1", "Téléphone", "Email"]}/>
             <PeopleForm fieldPrefix="exp2" fields={["Expert 2", "Téléphone", "Email"]}/>
           </div>
-          <DocumentationPage1 />
           <div className="evaluationGrid">
             { /*get first level of data key, e.g. Partie A*/ }
             {Object.entries(data).map((el, idx) => {
@@ -71,10 +73,11 @@ function App() {
                 {el[1].line.map((el, idx) => (
                   <EvaluationGridLine data={el} />
                 ))}
+                <br />
               </div>)
             })}
           </div>
-          <div className="pagebreak"></div>
+          {/*<div className="pagebreak"></div>*/}
           <div className="evaluationSummary">
             <EvaluationSummary />
           </div>

@@ -5,7 +5,7 @@ class EvaluationTable extends React.Component {
       <div className={`EvaluationSummary`}>
         <h2>Table d'évaluation</h2>
         <div className="divTable">
-          <div className="divTableBody">
+          <div className="divTableHeading">
             <div className="divTableRow">
               <div className="divTableCell tableHeader">Points</div>
               <div className="divTableCell tableHeader">Note</div>
@@ -18,6 +18,8 @@ class EvaluationTable extends React.Component {
               <div className="divTableCell tableHeader">Points</div>
               <div className="divTableCell tableHeader">Note</div>
             </div>
+          </div>
+          <div className="divTableBody">
             <div className="divTableRow">
               <div className="divTableCell">0 - 1</div>
               <div className="divTableCell">1.0</div>
