@@ -29,7 +29,10 @@ const ptsChange = () => {
   }
   // Note (5 * somme / 120) + 1
   markTotal['Grade'] = (5 * markTotal['Tot'] / 120) + 1;
+
   document.getElementById('partTotMarkSum').innerHTML = markTotal['Tot'];
+
+  // TODO: improve UI in case all the points are not set
   document.getElementById('partFinGradeNoRound').innerHTML = '(' + markTotal['Grade'].toFixed(5) + ')';
   document.getElementById('partFinGrade').innerHTML = '<b>' + markTotal['Grade'].toFixed(1) + '</b>';
 }

@@ -9,6 +9,7 @@ import {EvaluationComment} from './components/EvaluationComment.js';
 import {EvaluationSign} from './components/EvaluationSign.js';
 
 import {LocalStorageSave, LocalStorageLoad, LocalStorageClear} from './utils/LocalStorage.js';
+import {ptsChange} from './utils/Calculation.js';
 
 function App() {
   // https://www.freecodecamp.org/news/fetch-data-react/
@@ -36,12 +37,12 @@ function App() {
     })
     .finally(() => {
       setLoading(false);
+      // Load the data for the grid
+      LocalStorageLoad();
+      // Attempt to calculate the final grade
+      ptsChange();
     })
   }, []);
-
-  useEffect(() => {
-    LocalStorageLoad();
-  });
 
   if (loading) return "Loading...";
   if (error) return "Error!";
@@ -71,7 +72,7 @@ function App() {
                 <h2 className={`evaluationPartTitle`}>{el[0]}</h2>
                 { /*Loop over each part data*/ }
                 {el[1].line.map((el, idx) => (
-                  <EvaluationGridLine data={el} />
+                  <EvaluationGridLine data={el} key={`${el.id}_EvaluationGridLine`} />
                 ))}
                 <br />
               </div>)
