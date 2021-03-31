@@ -1,5 +1,5 @@
 const ptsChange = () => {
-  const input_pts = document.querySelectorAll('.EvaluationMark')
+  const input_pts = document.querySelectorAll('input[id$="_pts"]')
   let marks = {
     A: [],
     B: [],
