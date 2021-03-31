@@ -10,7 +10,6 @@ import {EvaluationPersons} from './components/EvaluationPersons'
 
 import {LocalStorageSave, LocalStorageLoad, LocalStorageClear} from './utils/LocalStorage.js';
 import {ptsChange} from './utils/Calculation.js';
-import { EvaluationGrid } from './components/EvaluationGrid.js';
 
 function App() {
   // https://www.freecodecamp.org/news/fetch-data-react/
@@ -60,14 +59,6 @@ function App() {
         <form name={`tpi-evaluation-form`} id={`tpi-evaluation-form`} onChange={(e) => LocalStorageSave(e)}>
           <h2 className={`intervenants`}>Intervenants</h2>
           <EvaluationPersons />
-          {/* <div className="evaluationPersons">
-            <PeopleForm fieldPrefix="cdp" fields={["Entreprise formatrice/Chef de Projet", "Téléphone", "Email"]}/>
-            <PeopleForm fieldPrefix="cand" fields={["Candidat/-e", "Téléphone", "Email"]}/>
-            <PeopleForm fieldPrefix="exp1" fields={["Expert 1", "Téléphone", "Email"]}/>
-            <PeopleForm fieldPrefix="exp2" fields={["Expert 2", "Téléphone", "Email"]}/>
-          </div> */}
-
-          {/*<div className="pagebreak"></div>*/}
           <EvaluationGrid data={data} />
           <div className="evaluationSummary">
             <EvaluationSummary />
