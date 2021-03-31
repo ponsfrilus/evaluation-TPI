@@ -1,9 +1,16 @@
-import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow } from '@material-ui/core'
-import Paper from '@material-ui/core/Paper';
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableContainer,
+  TableHead,
+  TableRow,
+} from '@material-ui/core'
+import Paper from '@material-ui/core/Paper'
 import React from 'react'
 class EvaluationSummary extends React.Component {
-  render(){
-    return(
+  render() {
+    return (
       <div className={`EvaluationSummary`}>
         <h2>Contraction</h2>
         <TableContainer component={Paper}>
@@ -17,33 +24,58 @@ class EvaluationSummary extends React.Component {
             </TableHead>
             <TableBody>
               <TableRow>
-                <TableCell>Partie A&thinsp;: Compétences professionnelles</TableCell>
+                <TableCell>
+                  Partie A&thinsp;: Compétences professionnelles
+                </TableCell>
                 <TableCell className="tar">60</TableCell>
-                <TableCell className="partMarkSum tar" id="partAMarkSum">?</TableCell>
+                <TableCell className="partMarkSum tar" id="partAMarkSum">
+                  ?
+                </TableCell>
               </TableRow>
               <TableRow>
-                <TableCell>Partie B&thinsp;: Documentation / rapport du TPI</TableCell>
+                <TableCell>
+                  Partie B&thinsp;: Documentation / rapport du TPI
+                </TableCell>
                 <TableCell className="tar">30</TableCell>
-                <TableCell className="partMarkSum tar" id="partBMarkSum">&nbsp;</TableCell>
+                <TableCell className="partMarkSum tar" id="partBMarkSum">
+                  &nbsp;
+                </TableCell>
               </TableRow>
               <TableRow>
-                <TableCell>Partie C&thinsp;: Entretien professionnel et présentation</TableCell>
+                <TableCell>
+                  Partie C&thinsp;: Entretien professionnel et présentation
+                </TableCell>
                 <TableCell className="tar">30</TableCell>
-                <TableCell className="partMarkSum tar" id="partCMarkSum">&nbsp;</TableCell>
+                <TableCell className="partMarkSum tar" id="partCMarkSum">
+                  &nbsp;
+                </TableCell>
               </TableRow>
               <TableRow>
                 <TableCell>Somme de A + B + C</TableCell>
                 <TableCell className="tar">120</TableCell>
-                <TableCell className="tar" id="partTotMarkSum">&nbsp;</TableCell>
+                <TableCell className="tar" id="partTotMarkSum">
+                  &nbsp;
+                </TableCell>
               </TableRow>
               <TableRow>
-                <TableCell className="partFinalGradeCell"><b>Note</b><br />(5 * somme / 120) + 1</TableCell>
-                <TableCell className="partFinalGradeCell" id="partFinGradeNoRound">&nbsp;</TableCell>
-                <TableCell className="partFinalGradeCell" id="partFinGrade">&nbsp;</TableCell>
+                <TableCell className="partFinalGradeCell">
+                  <b>Note</b>
+                  <br />
+                  (5 * somme / 120) + 1
+                </TableCell>
+                <TableCell
+                  className="partFinalGradeCell"
+                  id="partFinGradeNoRound"
+                >
+                  &nbsp;
+                </TableCell>
+                <TableCell className="partFinalGradeCell" id="partFinGrade">
+                  &nbsp;
+                </TableCell>
               </TableRow>
             </TableBody>
-            </Table>
-          </TableContainer>
+          </Table>
+        </TableContainer>
       </div>
     )
   }

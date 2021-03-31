@@ -1,7 +1,7 @@
 import React from 'react'
 class EvaluationSign extends React.Component {
-  render(){
-    return(
+  render() {
+    return (
       <div className={`EvaluationSign`}>
         <h2>Signatures</h2>
         <div className={`EvaluationSignContainer`}>
@@ -33,10 +33,9 @@ class EvaluationSign extends React.Component {
             <div className="textLine"></div>
           </div>
         </div>
-
       </div>
     )
   }
 }
 
-export {EvaluationSign}
+export { EvaluationSign }

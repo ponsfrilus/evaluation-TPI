@@ -1,9 +1,16 @@
-import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow } from '@material-ui/core'
-import Paper from '@material-ui/core/Paper';
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableContainer,
+  TableHead,
+  TableRow,
+} from '@material-ui/core'
+import Paper from '@material-ui/core/Paper'
 import React from 'react'
 class EvaluationTable extends React.Component {
   render() {
-    return(
+    return (
       <div className={`EvaluationSummary`}>
         <h2>Table d'évaluation</h2>
         <TableContainer component={Paper}>
@@ -68,7 +75,7 @@ class EvaluationTable extends React.Component {
                 <TableCell>3.3</TableCell>
                 <TableCell>78 - 80</TableCell>
                 <TableCell>4.3</TableCell>
-                <TableCell>102  - 104</TableCell>
+                <TableCell>102 - 104</TableCell>
                 <TableCell>5.3</TableCell>
               </TableRow>
               <TableRow>
@@ -163,4 +170,4 @@ class EvaluationTable extends React.Component {
   }
 }
 
-export {EvaluationTable}
+export { EvaluationTable }

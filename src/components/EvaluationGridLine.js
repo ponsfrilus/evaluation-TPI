@@ -18,27 +18,36 @@ const useStyles = makeStyles((theme) => ({
   numinput: {
     width: '3ch',
   },
-}));
+}))
 
-export default function EvaluationGridLine({data}) {
-
-  const classes = useStyles();
-    return(
-      <Grid container className={classes.container}>
-        <Grid container xs={1} className={classes.gridcell}>
-          {data.id}
-        </Grid>
-        <Grid container xs={6}>
-          {data.description}
-        </Grid>
-        <Grid container xs={1} onChange={() => ptsChange()} className={classes.centercell}>
-          <TextField type="number" id={`${data.id}_pts`} inputProps={{ min: "0", max: "3", step: "1" }} className={classes.numinput}/>
-        </Grid>
-        <Grid container xs={4}>
-          <TextField id={`${data.id}_justification`} multiline />
-        </Grid>
+export default function EvaluationGridLine({ data }) {
+  const classes = useStyles()
+  return (
+    <Grid container className={classes.container}>
+      <Grid container xs={1} className={classes.gridcell}>
+        {data.id}
       </Grid>
-    )
+      <Grid container xs={6}>
+        {data.description}
+      </Grid>
+      <Grid
+        container
+        xs={1}
+        onChange={() => ptsChange()}
+        className={classes.centercell}
+      >
+        <TextField
+          type="number"
+          id={`${data.id}_pts`}
+          inputProps={{ min: '0', max: '3', step: '1' }}
+          className={classes.numinput}
+        />
+      </Grid>
+      <Grid container xs={4}>
+        <TextField id={`${data.id}_justification`} multiline />
+      </Grid>
+    </Grid>
+  )
 }
 
-export{EvaluationGridLine}
+export { EvaluationGridLine }
