@@ -1,159 +1,163 @@
+import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow } from '@material-ui/core'
+import Paper from '@material-ui/core/Paper';
 import React from 'react'
 class EvaluationTable extends React.Component {
   render() {
     return(
       <div className={`EvaluationSummary`}>
         <h2>Table d'évaluation</h2>
-        <div className="divTable">
-          <div className="divTableHeading">
-            <div className="divTableRow">
-              <div className="divTableCell tableHeader">Points</div>
-              <div className="divTableCell tableHeader">Note</div>
-              <div className="divTableCell tableHeader">Points</div>
-              <div className="divTableCell tableHeader">Note</div>
-              <div className="divTableCell tableHeader">Points</div>
-              <div className="divTableCell tableHeader">Note</div>
-              <div className="divTableCell tableHeader">Points</div>
-              <div className="divTableCell tableHeader">Note</div>
-              <div className="divTableCell tableHeader">Points</div>
-              <div className="divTableCell tableHeader">Note</div>
-            </div>
-          </div>
-          <div className="divTableBody">
-            <div className="divTableRow">
-              <div className="divTableCell">0 - 1</div>
-              <div className="divTableCell">1.0</div>
-              <div className="divTableCell">23 - 25</div>
-              <div className="divTableCell">2.0</div>
-              <div className="divTableCell">47 - 49</div>
-              <div className="divTableCell">3.0</div>
-              <div className="divTableCell">71 - 73</div>
-              <div className="divTableCell">4.0</div>
-              <div className="divTableCell">95 - 97</div>
-              <div className="divTableCell">5.0</div>
-            </div>
-            <div className="divTableRow">
-              <div className="divTableCell">2 - 3</div>
-              <div className="divTableCell">1.1</div>
-              <div className="divTableCell">26 - 27</div>
-              <div className="divTableCell">2.1</div>
-              <div className="divTableCell">50 - 51</div>
-              <div className="divTableCell">3.1</div>
-              <div className="divTableCell">74 - 75</div>
-              <div className="divTableCell">4.1</div>
-              <div className="divTableCell">98 - 99</div>
-              <div className="divTableCell">5.1</div>
-            </div>
-            <div className="divTableRow">
-              <div className="divTableCell">4 - 5</div>
-              <div className="divTableCell">1.2</div>
-              <div className="divTableCell">28 - 29</div>
-              <div className="divTableCell">2.2</div>
-              <div className="divTableCell">52 - 53</div>
-              <div className="divTableCell">3.2</div>
-              <div className="divTableCell">76 - 77</div>
-              <div className="divTableCell">4.2</div>
-              <div className="divTableCell">100 - 101</div>
-              <div className="divTableCell">5.2</div>
-            </div>
-            <div className="divTableRow">
-              <div className="divTableCell">6 - 8</div>
-              <div className="divTableCell">1.3</div>
-              <div className="divTableCell">30 - 32</div>
-              <div className="divTableCell">2.3</div>
-              <div className="divTableCell">54 - 56</div>
-              <div className="divTableCell">3.3</div>
-              <div className="divTableCell">78 - 80</div>
-              <div className="divTableCell">4.3</div>
-              <div className="divTableCell">102  - 104</div>
-              <div className="divTableCell">5.3</div>
-            </div>
-            <div className="divTableRow">
-              <div className="divTableCell">9 - 10</div>
-              <div className="divTableCell">1.4</div>
-              <div className="divTableCell">33 - 34</div>
-              <div className="divTableCell">2.4</div>
-              <div className="divTableCell">57 - 58</div>
-              <div className="divTableCell">3.4</div>
-              <div className="divTableCell">81 - 82</div>
-              <div className="divTableCell">4.4</div>
-              <div className="divTableCell">105 - 106</div>
-              <div className="divTableCell">5.4</div>
-            </div>
-            <div className="divTableRow">
-              <div className="divTableCell">11 - 13</div>
-              <div className="divTableCell">1.5</div>
-              <div className="divTableCell">35 - 37</div>
-              <div className="divTableCell">2.5</div>
-              <div className="divTableCell">59 - 61</div>
-              <div className="divTableCell">3.5</div>
-              <div className="divTableCell">83 - 85</div>
-              <div className="divTableCell">4.5</div>
-              <div className="divTableCell">107 - 109</div>
-              <div className="divTableCell">5.5</div>
-            </div>
-            <div className="divTableRow">
-              <div className="divTableCell">14 - 15</div>
-              <div className="divTableCell">1.6</div>
-              <div className="divTableCell">38 - 39</div>
-              <div className="divTableCell">2.6</div>
-              <div className="divTableCell">62 - 63</div>
-              <div className="divTableCell">3.6</div>
-              <div className="divTableCell">86 - 87</div>
-              <div className="divTableCell">4.6</div>
-              <div className="divTableCell">110 - 111</div>
-              <div className="divTableCell">5.6</div>
-            </div>
-            <div className="divTableRow">
-              <div className="divTableCell">16 - 17</div>
-              <div className="divTableCell">1.7</div>
-              <div className="divTableCell">40 - 41</div>
-              <div className="divTableCell">2.7</div>
-              <div className="divTableCell">64 - 65</div>
-              <div className="divTableCell">3.7</div>
-              <div className="divTableCell">88 - 89</div>
-              <div className="divTableCell">4.7</div>
-              <div className="divTableCell">112 - 113</div>
-              <div className="divTableCell">5.7</div>
-            </div>
-            <div className="divTableRow">
-              <div className="divTableCell">18 - 20</div>
-              <div className="divTableCell">1.8</div>
-              <div className="divTableCell">42 - 44</div>
-              <div className="divTableCell">2.8</div>
-              <div className="divTableCell">66 - 68</div>
-              <div className="divTableCell">3.8</div>
-              <div className="divTableCell">90 - 92</div>
-              <div className="divTableCell">4.8</div>
-              <div className="divTableCell">114 - 116</div>
-              <div className="divTableCell">5.8</div>
-            </div>
-            <div className="divTableRow">
-              <div className="divTableCell">21 - 22</div>
-              <div className="divTableCell">1.9</div>
-              <div className="divTableCell">45 - 46</div>
-              <div className="divTableCell">2.9</div>
-              <div className="divTableCell">69 - 70</div>
-              <div className="divTableCell">3.9</div>
-              <div className="divTableCell">93 - 94</div>
-              <div className="divTableCell">4.9</div>
-              <div className="divTableCell">117 - 118</div>
-              <div className="divTableCell">5.9</div>
-            </div>
-            <div className="divTableRow">
-              <div className="divTableCell">&nbsp;</div>
-              <div className="divTableCell">&nbsp;</div>
-              <div className="divTableCell">&nbsp;</div>
-              <div className="divTableCell">&nbsp;</div>
-              <div className="divTableCell">&nbsp;</div>
-              <div className="divTableCell">&nbsp;</div>
-              <div className="divTableCell">&nbsp;</div>
-              <div className="divTableCell">&nbsp;</div>
-              <div className="divTableCell">119 - 120</div>
-              <div className="divTableCell">6.0</div>
-            </div>
-          </div>
-        </div>
+        <TableContainer component={Paper}>
+          <Table aria-label="simple table">
+            <TableHead>
+              <TableRow>
+                <TableCell>Points</TableCell>
+                <TableCell>Note</TableCell>
+                <TableCell>Points</TableCell>
+                <TableCell>Note</TableCell>
+                <TableCell>Points</TableCell>
+                <TableCell>Note</TableCell>
+                <TableCell>Points</TableCell>
+                <TableCell>Note</TableCell>
+                <TableCell>Points</TableCell>
+                <TableCell>Note</TableCell>
+              </TableRow>
+            </TableHead>
+            <TableBody>
+              <TableRow>
+                <TableCell>0 - 1</TableCell>
+                <TableCell>1.0</TableCell>
+                <TableCell>23 - 25</TableCell>
+                <TableCell>2.0</TableCell>
+                <TableCell>47 - 49</TableCell>
+                <TableCell>3.0</TableCell>
+                <TableCell>71 - 73</TableCell>
+                <TableCell>4.0</TableCell>
+                <TableCell>95 - 97</TableCell>
+                <TableCell>5.0</TableCell>
+              </TableRow>
+              <TableRow>
+                <TableCell>2 - 3</TableCell>
+                <TableCell>1.1</TableCell>
+                <TableCell>26 - 27</TableCell>
+                <TableCell>2.1</TableCell>
+                <TableCell>50 - 51</TableCell>
+                <TableCell>3.1</TableCell>
+                <TableCell>74 - 75</TableCell>
+                <TableCell>4.1</TableCell>
+                <TableCell>98 - 99</TableCell>
+                <TableCell>5.1</TableCell>
+              </TableRow>
+              <TableRow>
+                <TableCell>4 - 5</TableCell>
+                <TableCell>1.2</TableCell>
+                <TableCell>28 - 29</TableCell>
+                <TableCell>2.2</TableCell>
+                <TableCell>52 - 53</TableCell>
+                <TableCell>3.2</TableCell>
+                <TableCell>76 - 77</TableCell>
+                <TableCell>4.2</TableCell>
+                <TableCell>100 - 101</TableCell>
+                <TableCell>5.2</TableCell>
+              </TableRow>
+              <TableRow>
+                <TableCell>6 - 8</TableCell>
+                <TableCell>1.3</TableCell>
+                <TableCell>30 - 32</TableCell>
+                <TableCell>2.3</TableCell>
+                <TableCell>54 - 56</TableCell>
+                <TableCell>3.3</TableCell>
+                <TableCell>78 - 80</TableCell>
+                <TableCell>4.3</TableCell>
+                <TableCell>102  - 104</TableCell>
+                <TableCell>5.3</TableCell>
+              </TableRow>
+              <TableRow>
+                <TableCell>9 - 10</TableCell>
+                <TableCell>1.4</TableCell>
+                <TableCell>33 - 34</TableCell>
+                <TableCell>2.4</TableCell>
+                <TableCell>57 - 58</TableCell>
+                <TableCell>3.4</TableCell>
+                <TableCell>81 - 82</TableCell>
+                <TableCell>4.4</TableCell>
+                <TableCell>105 - 106</TableCell>
+                <TableCell>5.4</TableCell>
+              </TableRow>
+              <TableRow>
+                <TableCell>11 - 13</TableCell>
+                <TableCell>1.5</TableCell>
+                <TableCell>35 - 37</TableCell>
+                <TableCell>2.5</TableCell>
+                <TableCell>59 - 61</TableCell>
+                <TableCell>3.5</TableCell>
+                <TableCell>83 - 85</TableCell>
+                <TableCell>4.5</TableCell>
+                <TableCell>107 - 109</TableCell>
+                <TableCell>5.5</TableCell>
+              </TableRow>
+              <TableRow>
+                <TableCell>14 - 15</TableCell>
+                <TableCell>1.6</TableCell>
+                <TableCell>38 - 39</TableCell>
+                <TableCell>2.6</TableCell>
+                <TableCell>62 - 63</TableCell>
+                <TableCell>3.6</TableCell>
+                <TableCell>86 - 87</TableCell>
+                <TableCell>4.6</TableCell>
+                <TableCell>110 - 111</TableCell>
+                <TableCell>5.6</TableCell>
+              </TableRow>
+              <TableRow>
+                <TableCell>16 - 17</TableCell>
+                <TableCell>1.7</TableCell>
+                <TableCell>40 - 41</TableCell>
+                <TableCell>2.7</TableCell>
+                <TableCell>64 - 65</TableCell>
+                <TableCell>3.7</TableCell>
+                <TableCell>88 - 89</TableCell>
+                <TableCell>4.7</TableCell>
+                <TableCell>112 - 113</TableCell>
+                <TableCell>5.7</TableCell>
+              </TableRow>
+              <TableRow>
+                <TableCell>18 - 20</TableCell>
+                <TableCell>1.8</TableCell>
+                <TableCell>42 - 44</TableCell>
+                <TableCell>2.8</TableCell>
+                <TableCell>66 - 68</TableCell>
+                <TableCell>3.8</TableCell>
+                <TableCell>90 - 92</TableCell>
+                <TableCell>4.8</TableCell>
+                <TableCell>114 - 116</TableCell>
+                <TableCell>5.8</TableCell>
+              </TableRow>
+              <TableRow>
+                <TableCell>21 - 22</TableCell>
+                <TableCell>1.9</TableCell>
+                <TableCell>45 - 46</TableCell>
+                <TableCell>2.9</TableCell>
+                <TableCell>69 - 70</TableCell>
+                <TableCell>3.9</TableCell>
+                <TableCell>93 - 94</TableCell>
+                <TableCell>4.9</TableCell>
+                <TableCell>117 - 118</TableCell>
+                <TableCell>5.9</TableCell>
+              </TableRow>
+              <TableRow>
+                <TableCell>&nbsp;</TableCell>
+                <TableCell>&nbsp;</TableCell>
+                <TableCell>&nbsp;</TableCell>
+                <TableCell>&nbsp;</TableCell>
+                <TableCell>&nbsp;</TableCell>
+                <TableCell>&nbsp;</TableCell>
+                <TableCell>&nbsp;</TableCell>
+                <TableCell>&nbsp;</TableCell>
+                <TableCell>119 - 120</TableCell>
+                <TableCell>6.0</TableCell>
+              </TableRow>
+            </TableBody>
+          </Table>
+        </TableContainer>
       </div>
     )
   }
