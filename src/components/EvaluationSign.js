@@ -1,38 +1,45 @@
+import { Grid } from '@material-ui/core'
 import React from 'react'
 class EvaluationSign extends React.Component {
   render() {
     return (
-      <div className={`EvaluationSign`}>
+      <div>
         <h2>Signatures</h2>
-        <div className={`EvaluationSignContainer`}>
-          <div className={`EvaluationSignBlock sign_chef_de_projet`}>
-            <h3>Chef de projet</h3>
-            <p>Lieu&thinsp;:</p>
-            <div className="textLine"></div>
-            <p>Date&thinsp;:</p>
-            <div className="textLine"></div>
-            <p>Signature&thinsp;:</p>
-            <div className="textLine"></div>
-          </div>
-          <div className={`EvaluationSignBlock sign_expert_1`}>
-            <h3>Expert 1</h3>
-            <p>Lieu&thinsp;:</p>
-            <div className="textLine"></div>
-            <p>Date&thinsp;:</p>
-            <div className="textLine"></div>
-            <p>Signature&thinsp;:</p>
-            <div className="textLine"></div>
-          </div>
-          <div className={`EvaluationSignBlock sign_expert_2`}>
-            <h3>Expert 2</h3>
-            <p>Lieu&thinsp;:</p>
-            <div className="textLine"></div>
-            <p>Date&thinsp;:</p>
-            <div className="textLine"></div>
-            <p>Signature&thinsp;:</p>
-            <div className="textLine"></div>
-          </div>
-        </div>
+        <Grid container className={`EvaluationSign`}>
+          <Grid container xs={4} className={`EvaluationSignContainer`}>
+            <div className={`EvaluationSignBlock sign_chef_de_projet`}>
+              <h3>Chef de projet</h3>
+              <p>Lieu&thinsp;:</p>
+              <div className="textLine"></div>
+              <p>Date&thinsp;:</p>
+              <div className="textLine"></div>
+              <p>Signature&thinsp;:</p>
+              <div className="textLine"></div>
+            </div>
+          </Grid>
+          <Grid container xs={4} className={`EvaluationSignContainer`}>
+            <div className={`EvaluationSignBlock sign_expert_1`}>
+              <h3>Expert 1</h3>
+              <p>Lieu&thinsp;:</p>
+              <div className="textLine"></div>
+              <p>Date&thinsp;:</p>
+              <div className="textLine"></div>
+              <p>Signature&thinsp;:</p>
+              <div className="textLine"></div>
+            </div>
+          </Grid>
+          <Grid container xs={4} className={`EvaluationSignContainer`}>
+            <div className={`EvaluationSignBlock sign_expert_2`}>
+              <h3>Expert 2</h3>
+              <p>Lieu&thinsp;:</p>
+              <div className="textLine"></div>
+              <p>Date&thinsp;:</p>
+              <div className="textLine"></div>
+              <p>Signature&thinsp;:</p>
+              <div className="textLine"></div>
+            </div>
+          </Grid>
+        </Grid>
       </div>
     )
   }
