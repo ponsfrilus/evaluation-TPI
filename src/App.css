@@ -1,0 +1,50 @@
+html,
+body {
+  height: 100%;
+  margin: 20px;
+  font-size: 1.1em;
+}
+
+@media print {
+  @page {
+    size: A4;
+  }
+
+  input,
+  textarea {
+    border: 0;
+    padding: 0;
+    margin-left: 10px;
+    overflow: visible;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+
+  input[type='text'] {
+    display: inline-block;
+    border: none;
+    border-bottom: 1px solid #999999;
+  }
+
+  /* Chrome, Safari, Edge, Opera */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  /* Firefox */
+  input[type='number'] {
+    -moz-appearance: textfield;
+  }
+
+  .hideforprint {
+    display: none;
+  }
+
+  .pagebreak {
+    clear: both;
+    page-break-after: always;
+  }
+}
