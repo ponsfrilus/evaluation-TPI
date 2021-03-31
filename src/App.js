@@ -1,4 +1,4 @@
-import './App.css';
+//import './App.css';
 import React, { useState, useEffect } from 'react'
 //import {PeopleForm} from './components/PeopleForm.js';
 import {DocumentationPage1} from './components/DocumentationPage1.js';
@@ -10,6 +10,7 @@ import {EvaluationPersons} from './components/EvaluationPersons'
 
 import {LocalStorageSave, LocalStorageLoad, LocalStorageClear} from './utils/LocalStorage.js';
 import {ptsChange} from './utils/Calculation.js';
+import { EvaluationGrid } from './components/EvaluationGrid.js';
 
 function App() {
   // https://www.freecodecamp.org/news/fetch-data-react/
@@ -65,7 +66,9 @@ function App() {
             <PeopleForm fieldPrefix="exp1" fields={["Expert 1", "Téléphone", "Email"]}/>
             <PeopleForm fieldPrefix="exp2" fields={["Expert 2", "Téléphone", "Email"]}/>
           </div> */}
+
           {/*<div className="pagebreak"></div>*/}
+          <EvaluationGrid data={data} />
           <div className="evaluationSummary">
             <EvaluationSummary />
           </div>

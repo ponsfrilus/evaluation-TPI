@@ -1,25 +1,44 @@
+import { Grid, makeStyles, TextField } from '@material-ui/core'
 import React from 'react'
 import { ptsChange } from '../utils/Calculation.js'
 
-class EvaluationGridLine extends React.Component {
-  render(){
+const useStyles = makeStyles((theme) => ({
+  container: {
+    justifyContent: 'center',
+    paddingBottom: '1em',
+  },
+  gridcell: {
+    justifyContent: 'center',
+    fontSize: '1.3em',
+    fontWeight: 'bold',
+  },
+  centercell: {
+    justifyContent: 'center',
+  },
+  numinput: {
+    width: '3ch',
+  },
+}));
+
+export default function EvaluationGridLine({data}) {
+
+  const classes = useStyles();
     return(
-      <div className={`EvaluationGridLine`}>
-        <div key={`${this.props.data.id}_EvaluationGridLineID`} className="EvaluationGridElement EvaluationGridLineID">
-          {this.props.data.id}
-        </div>
-        <div key={`${this.props.data.id}_EvaluationGridLineQuestion`} className="EvaluationGridElement EvaluationGridLineQuestion">
-          {this.props.data.description}
-        </div>
-        <div key={`${this.props.data.id}_EvaluationGridLinePt`} className="EvaluationGridElement EvaluationGridLinePt" onChange={() => ptsChange()}>
-          <input type="number" id={`${this.props.data.id}_pts`} key={`${this.props.data.id}_pts`} min={0} max={3} step={1} className="EvaluationMark" />
-        </div>
-        <div key={`${this.props.data.id}_EvaluationGridLineJustification`} className="EvaluationGridElement EvaluationGridLineJustification">
-          <textarea id={`${this.props.data.id}_justification`} key={`${this.props.data.id}_justification`} cols={37} rows={3} ></textarea>
-        </div>
-      </div>
+      <Grid container className={classes.container}>
+        <Grid container xs={1} className={classes.gridcell}>
+          {data.id}
+        </Grid>
+        <Grid container xs={6}>
+          {data.description}
+        </Grid>
+        <Grid container xs={1} onChange={() => ptsChange()} className={classes.centercell}>
+          <TextField type="number" id={`${data.id}_pts`} inputProps={{ min: "0", max: "3", step: "1" }} className={classes.numinput}/>
+        </Grid>
+        <Grid container xs={4}>
+          <TextField id={`${data.id}_justification`} multiline />
+        </Grid>
+      </Grid>
     )
-  }
 }
 
 export{EvaluationGridLine}
