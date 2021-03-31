@@ -1,7 +1,6 @@
 import './App.css';
 import React, { useState, useEffect } from 'react'
-import {PeopleForm} from './components/PeopleForm.js';
-import {EvaluationGridLine} from './components/EvaluationGridLine.js';
+//import {PeopleForm} from './components/PeopleForm.js';
 import {DocumentationPage1} from './components/DocumentationPage1.js';
 import {EvaluationSummary} from './components/EvaluationSummary.js';
 import {EvaluationTable} from './components/EvaluationTable.js';
