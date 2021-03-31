@@ -24,14 +24,14 @@ export default function EvaluationGridLine({ data }) {
   const classes = useStyles()
   return (
     <Grid container className={classes.container}>
-      <Grid container xs={1} className={classes.gridcell}>
+      <Grid item={true} xs={1} className={classes.gridcell}>
         {data.id}
       </Grid>
-      <Grid container xs={6}>
+      <Grid item={true} xs={6}>
         {data.description}
       </Grid>
       <Grid
-        container
+        item={true}
         xs={1}
         onChange={() => ptsChange()}
         className={classes.centercell}
@@ -43,7 +43,7 @@ export default function EvaluationGridLine({ data }) {
           className={classes.numinput}
         />
       </Grid>
-      <Grid container xs={4}>
+      <Grid item={true} xs={4}>
         <TextField fullWidth id={`${data.id}_justification`} multiline />
       </Grid>
     </Grid>

@@ -1,35 +1,39 @@
-import { Box } from '@material-ui/core'
+import { Grid } from '@material-ui/core'
 import React from 'react'
 import { PeopleForm } from './PeopleForm'
 class EvaluationPersons extends React.Component {
   render() {
     return (
-      <Box
-        display={{ xs: undefined, sm: 'flex' }}
-        flexWrap="wrap"
-        flexDirection="row"
-      >
-        <PeopleForm
-          fieldPrefix="cdp"
-          fields={[
-            'Entreprise formatrice/Chef de Projet',
-            'Téléphone',
-            'Email',
-          ]}
-        />
-        <PeopleForm
-          fieldPrefix="cand"
-          fields={['Candidat/-e', 'Téléphone', 'Email']}
-        />
-        <PeopleForm
-          fieldPrefix="exp1"
-          fields={['Expert 1', 'Téléphone', 'Email']}
-        />
-        <PeopleForm
-          fieldPrefix="exp2"
-          fields={['Expert 2', 'Téléphone', 'Email']}
-        />
-      </Box>
+      <Grid container spacing={3}>
+        <Grid xs={12} sm={6} item={true}>
+          <PeopleForm
+            fieldPrefix="cdp"
+            title="Entreprise formatrice/Chef de Projet"
+            fields={['Nom', 'Téléphone', 'Email']}
+          />
+        </Grid>
+        <Grid xs={12} sm={6} item={true}>
+          <PeopleForm
+            fieldPrefix="cand"
+            title="Candidat/-e"
+            fields={['Nom', 'Téléphone', 'Email']}
+          />
+        </Grid>
+        <Grid xs={12} sm={6} item={true}>
+          <PeopleForm
+            fieldPrefix="exp1"
+            title="Expert 1"
+            fields={['Nom', 'Téléphone', 'Email']}
+          />
+        </Grid>
+        <Grid xs={12} sm={6} item={true}>
+          <PeopleForm
+            fieldPrefix="exp2"
+            title="Expert 2"
+            fields={['Nom', 'Téléphone', 'Email']}
+          />
+        </Grid>
+      </Grid>
     )
   }
 }

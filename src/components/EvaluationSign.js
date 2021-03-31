@@ -6,7 +6,7 @@ class EvaluationSign extends React.Component {
       <div>
         <h2>Signatures</h2>
         <Grid container className={`EvaluationSign`}>
-          <Grid container xs={4} className={`EvaluationSignContainer`}>
+          <Grid item={true} container xs={4} className={`EvaluationSignContainer`}>
             <div className={`EvaluationSignBlock sign_chef_de_projet`}>
               <h3>Chef de projet</h3>
               <p>Lieu&thinsp;:</p>
@@ -17,7 +17,7 @@ class EvaluationSign extends React.Component {
               <div className="textLine"></div>
             </div>
           </Grid>
-          <Grid container xs={4} className={`EvaluationSignContainer`}>
+          <Grid item={true} container xs={4} className={`EvaluationSignContainer`}>
             <div className={`EvaluationSignBlock sign_expert_1`}>
               <h3>Expert 1</h3>
               <p>Lieu&thinsp;:</p>
@@ -28,7 +28,7 @@ class EvaluationSign extends React.Component {
               <div className="textLine"></div>
             </div>
           </Grid>
-          <Grid container xs={4} className={`EvaluationSignContainer`}>
+          <Grid item={true} container xs={4} className={`EvaluationSignContainer`}>
             <div className={`EvaluationSignBlock sign_expert_2`}>
               <h3>Expert 2</h3>
               <p>Lieu&thinsp;:</p>
