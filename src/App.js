@@ -7,6 +7,7 @@ import {EvaluationSummary} from './components/EvaluationSummary.js';
 import {EvaluationTable} from './components/EvaluationTable.js';
 import {EvaluationComment} from './components/EvaluationComment.js';
 import {EvaluationSign} from './components/EvaluationSign.js';
+import {EvaluationPersons} from './components/EvaluationPersons'
 
 import {LocalStorageSave, LocalStorageLoad, LocalStorageClear} from './utils/LocalStorage.js';
 import {ptsChange} from './utils/Calculation.js';
@@ -58,26 +59,13 @@ function App() {
         <DocumentationPage1 />
         <form name={`tpi-evaluation-form`} id={`tpi-evaluation-form`} onChange={(e) => LocalStorageSave(e)}>
           <h2 className={`intervenants`}>Intervenants</h2>
-          <div className="evaluationPersons">
+          <EvaluationPersons />
+          {/* <div className="evaluationPersons">
             <PeopleForm fieldPrefix="cdp" fields={["Entreprise formatrice/Chef de Projet", "Téléphone", "Email"]}/>
             <PeopleForm fieldPrefix="cand" fields={["Candidat/-e", "Téléphone", "Email"]}/>
             <PeopleForm fieldPrefix="exp1" fields={["Expert 1", "Téléphone", "Email"]}/>
             <PeopleForm fieldPrefix="exp2" fields={["Expert 2", "Téléphone", "Email"]}/>
-          </div>
-          <div className="evaluationGrid">
-            { /*get first level of data key, e.g. Partie A*/ }
-            {Object.entries(data).map((el, idx) => {
-              /*Display each part title*/
-              return (<div className={`${el[0]} evaluationPart`} key={`${el[0]}_key`}>
-                <h2 className={`evaluationPartTitle`}>{el[0]}</h2>
-                { /*Loop over each part data*/ }
-                {el[1].line.map((el, idx) => (
-                  <EvaluationGridLine data={el} key={`${el.id}_EvaluationGridLine`} />
-                ))}
-                <br />
-              </div>)
-            })}
-          </div>
+          </div> */}
           {/*<div className="pagebreak"></div>*/}
           <div className="evaluationSummary">
             <EvaluationSummary />
