@@ -44,7 +44,7 @@ export default function EvaluationGridLine({ data }) {
         />
       </Grid>
       <Grid container xs={4}>
-        <TextField id={`${data.id}_justification`} multiline />
+        <TextField fullWidth id={`${data.id}_justification`} multiline />
       </Grid>
     </Grid>
   )
