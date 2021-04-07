@@ -1,5 +1,5 @@
-import { Box } from '@material-ui/core'
 import React from 'react'
+import { Box } from '@material-ui/core'
 import { EvaluationGridLine } from './EvaluationGridLine'
 
 class EvaluationGrid extends React.Component {

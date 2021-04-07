@@ -1,4 +1,5 @@
 import React from 'react'
+
 class DocumentationPage1 extends React.Component {
   render() {
     return (

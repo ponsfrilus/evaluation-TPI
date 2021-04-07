@@ -1,3 +1,4 @@
+import React from 'react'
 import {
   Table,
   TableBody,
@@ -7,7 +8,7 @@ import {
   TableRow,
 } from '@material-ui/core'
 import Paper from '@material-ui/core/Paper'
-import React from 'react'
+
 class EvaluationTable extends React.Component {
   render() {
     return (

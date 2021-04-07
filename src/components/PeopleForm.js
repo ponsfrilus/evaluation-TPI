@@ -1,5 +1,6 @@
-import { TextField } from '@material-ui/core'
 import React from 'react'
+import { Box, TextField } from '@material-ui/core'
+
 class PeopleForm extends React.Component {
   render() {
     return (
