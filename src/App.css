@@ -1,6 +1,5 @@
 html,
 body {
-  height: 100%;
   margin: 20px;
   font-size: 1.1em;
 }
@@ -16,6 +15,10 @@ body {
 
 .bd-callout-warning {
   border-left-color: #f0ad4e;
+}
+
+li {
+  margin: 10px 0;
 }
 
 .controls {
