@@ -4,7 +4,7 @@ class DocumentationPage1 extends React.Component {
   render() {
     return (
       <div className={`DocumentationPage1`}>
-        <blockquote>
+        <blockquote className="bd-callout bd-callout-warning">
           Ce document ne doit en aucun cas être montré au candidat après
           l'attribution des points.
         </blockquote>
