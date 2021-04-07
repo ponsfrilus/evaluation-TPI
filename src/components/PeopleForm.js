@@ -4,20 +4,27 @@ import { Box, TextField } from '@material-ui/core'
 class PeopleForm extends React.Component {
   render() {
     return (
-      <div>
+      <Box>
         <h3>{this.props.title}</h3>
-        {this.props.fields.map((field, i) => {
-          return (
-            <div key={this.props.fieldPrefix + '_' + field + '_label'}>
-              <label>
-                <br />
-                {field}:<br />
-                <TextField fullWidth id={this.props.fieldPrefix + '_' + field} label={field} />
-              </label>
-            </div>
-          )
-        })}
-      </div>
+        <Box mb={3} key={this.props.fieldPrefix + '_name'}>
+          <label>
+            Prénom et nom&thinsp;:
+            <TextField fullWidth id={this.props.fieldPrefix + '_name'} />
+          </label>
+        </Box>
+        <Box mb={3} key={this.props.fieldPrefix + '_phone'}>
+          <label>
+            Téléphone&thinsp;:
+            <TextField fullWidth id={this.props.fieldPrefix + '_phone'} />
+          </label>
+        </Box>
+        <Box mb={3} key={this.props.fieldPrefix + '_mail'}>
+          <label>
+            Email&thinsp;:
+            <TextField fullWidth id={this.props.fieldPrefix + '_mail'} />
+          </label>
+        </Box>
+      </Box>
     )
   }
 }
