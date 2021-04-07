@@ -7,6 +7,7 @@ import { EvaluationComment } from './components/EvaluationComment.js'
 import { EvaluationSign } from './components/EvaluationSign.js'
 import { EvaluationPersons } from './components/EvaluationPersons'
 import { EvaluationGrid } from './components/EvaluationGrid.js'
+import { Footer } from './components/Footer.js'
 
 import {
   LocalStorageSave,
@@ -98,6 +99,7 @@ function App() {
           </div>
         </form>
       </div>
+      <Footer />
     </div>
   )
 }

@@ -44,6 +44,11 @@ li {
   vertical-align: bottom;
 }
 
+.footer {
+  padding-top: 2em;
+  text-align: center;
+}
+
 @media print {
   .container {
     margin: 0mm;
