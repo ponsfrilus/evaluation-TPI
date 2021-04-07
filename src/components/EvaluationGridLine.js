@@ -29,14 +29,14 @@ export default function EvaluationGridLine({ data }) {
       <Grid item={true} xs={1} className={classes.gridcell}>
         {data.id}
       </Grid>
-      <Grid item={true} xs={6}>
+      <Grid item={true} xs={5}>
         {data.description}
       </Grid>
       <Grid
         item={true}
         xs={1}
         onChange={() => ptsChange()}
-        className={classes.centercell}
+        className={`${classes.centercell} test`}
       >
         <TextField
           type="number"
@@ -45,7 +45,7 @@ export default function EvaluationGridLine({ data }) {
           className={classes.numinput}
         />
       </Grid>
-      <Grid item={true} xs={4} className={`grid_justification`}>
+      <Grid item={true} xs={5} className={`grid_justification`}>
         <TextField fullWidth id={`${data.id}_justification`} multiline />
       </Grid>
     </Grid>

@@ -70,9 +70,15 @@ li {
   }
 
   .intervenants_container input,
-  .EvaluationComment textarea,
-  .grid_justification textarea {
+  .EvaluationComment textarea {
     font-weight: bold;
+  }
+  .EvaluationComment textarea,
+  .grid_justification input {
+    font-size: 12pt;
+  }
+  .evaluationPart textarea {
+    font-size: 1em;
   }
 
   input,
