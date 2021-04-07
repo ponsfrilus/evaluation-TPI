@@ -5,6 +5,7 @@ import { ptsChange } from '../utils/Calculation.js'
 const useStyles = makeStyles((theme) => ({
   container: {
     justifyContent: 'center',
+    paddingTop: '1em',
     paddingBottom: '1em',
   },
   gridcell: {
@@ -17,6 +18,7 @@ const useStyles = makeStyles((theme) => ({
   },
   numinput: {
     width: '3ch',
+    fontWeight: 'bold',
   },
 }))
 

@@ -1,3 +1,5 @@
+import { ptsChange } from './Calculation.js'
+
 const LocalStorageSave = () => {
   const inputs = document.querySelectorAll('input')
   for (let inp of inputs) {
@@ -48,6 +50,7 @@ const LocalStorageClear = () => {
   }
   localStorage.clear()
   console.log('Something has been cleared... maybe')
+  ptsChange()
 }
 
 export { LocalStorageSave, LocalStorageLoad, LocalStorageClear }

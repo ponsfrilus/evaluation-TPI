@@ -70,7 +70,7 @@ class EvaluationSummary extends React.Component {
                 >
                   &nbsp;
                 </TableCell>
-                <TableCell className="partFinalGradeCell" id="partFinGrade">
+                <TableCell className="partFinalGradeCell partFinGradeOuter" id="partFinGrade">
                   &nbsp;
                 </TableCell>
               </TableRow>

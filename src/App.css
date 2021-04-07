@@ -25,6 +25,25 @@ li {
   text-align: center;
 }
 
+.evaluationPart input[type='number'] {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+.evaluationPart textarea {
+  font-size: 1.3em;
+}
+
+#partFinGradeOuter {
+  padding: 2px;
+}
+
+#partFinGrade {
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: bottom;
+}
+
 @media print {
   .container {
     margin: 0mm;
@@ -88,6 +107,7 @@ li {
   #partFinGrade {
     font-size: 3em;
   }
+
   .no-print, .no-print * {
     display: none !important;
     visibility: hidden;

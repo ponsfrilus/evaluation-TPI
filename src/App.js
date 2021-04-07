@@ -14,6 +14,7 @@ import {
   LocalStorageClear,
 } from './utils/LocalStorage.js'
 import { ptsChange } from './utils/Calculation.js'
+import { sampleData } from './utils/SampleData.js'
 
 function App() {
   // https://www.freecodecamp.org/news/fetch-data-react/
@@ -57,6 +58,10 @@ function App() {
         <div className="controls no-print">
           <button onClick={() => LocalStorageClear()}>
             Tout effacer
+          </button>
+          &nbsp;
+          <button onClick={() => sampleData()}>
+            Charger des données d'exemple
           </button>
           &nbsp;
           <button onClick={() => window.print()}>
