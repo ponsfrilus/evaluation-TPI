@@ -5,7 +5,7 @@ class EvaluationComment extends React.Component {
   render() {
     return (
       <div className={`EvaluationComment`}>
-        <h2>Remarques</h2>
+        <h1>Remarques</h1>
         <TextField
           id="EvaluationComment_comment"
           placeholder="Inscrivez ici toutes remarques concernant la procédure de qualification..."

@@ -17,7 +17,7 @@ class DocumentationPage1 extends React.Component {
         </p>
         <h3>Évaluation</h3>
         <p>
-          Le/la chef/-e de projet du TPI etles experts/expertes évaluent les
+          Le/la chef/-e de projet du TPI et les experts/expertes évaluent les
           compétences professionnelles élargies, le résultat et les compétences
           professionnelles.
         </p>
@@ -28,7 +28,7 @@ class DocumentationPage1 extends React.Component {
             <ul>
               <li>6 critères relatifs à l'analyse et au concept</li>
               <li>
-                7 critères relatifs à la réalisation, aux tests et au résultats
+                7 critères relatifs à la réalisation, aux tests et aux résultats
                 du TPI
               </li>
               <li>

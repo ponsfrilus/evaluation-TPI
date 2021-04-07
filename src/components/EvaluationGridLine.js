@@ -43,7 +43,7 @@ export default function EvaluationGridLine({ data }) {
           className={classes.numinput}
         />
       </Grid>
-      <Grid item={true} xs={4}>
+      <Grid item={true} xs={4} className={`grid_justification`}>
         <TextField fullWidth id={`${data.id}_justification`} multiline />
       </Grid>
     </Grid>

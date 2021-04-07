@@ -35,7 +35,7 @@ const ptsChange = () => {
 
   // TODO: improve UI in case all the points are not set
   document.getElementById('partFinGradeNoRound').innerHTML =
-    '(' + markTotal['Grade'].toFixed(5) + ')'
+    '<br />(' + markTotal['Grade'].toFixed(5) + ')'
   document.getElementById('partFinGrade').innerHTML =
     '<b>' + markTotal['Grade'].toFixed(1) + '</b>'
 }

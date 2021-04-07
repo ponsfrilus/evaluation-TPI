@@ -54,12 +54,12 @@ function App() {
     <div>
       <div className="container">
 
-        <div className="controls">
-          <button onClick={() => LocalStorageClear()} className="hideforprint">
+        <div className="controls no-print">
+          <button onClick={() => LocalStorageClear()}>
             Tout effacer
           </button>
           &nbsp;
-          <button onClick={() => window.print()} className="hideforprint">
+          <button onClick={() => window.print()}>
             Imprimer
           </button>
         </div>
@@ -74,13 +74,15 @@ function App() {
           id={`tpi-evaluation-form`}
           onChange={(e) => LocalStorageSave(e)}
         >
-          <h2 className={`intervenants`}>Intervenants</h2>
+          <div className="pagebreak"></div>
           <EvaluationPersons />
+          <div className="pagebreak"></div>
           <EvaluationGrid data={data} />
+          <div className="pagebreak"></div>
           <div className="evaluationSummary">
             <EvaluationSummary />
           </div>
-          <div className="evaluationTable">
+          <div className="evaluationTable no-print">
             <EvaluationTable />
           </div>
           <div className="evaluationComment">

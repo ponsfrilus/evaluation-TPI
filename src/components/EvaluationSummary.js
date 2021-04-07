@@ -13,7 +13,7 @@ class EvaluationSummary extends React.Component {
   render() {
     return (
       <div className={`EvaluationSummary`}>
-        <h2>Contraction</h2>
+        <h1>Contraction</h1>
         <TableContainer component={Paper}>
           <Table aria-label="simple table">
             <TableHead>
