@@ -18,6 +18,11 @@ body {
   border-left-color: #f0ad4e;
 }
 
+.controls {
+  width: 100%;
+  text-align: center;
+}
+
 @media print {
   @page {
     size: A4;

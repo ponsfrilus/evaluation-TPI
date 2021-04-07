@@ -52,13 +52,18 @@ function App() {
 
   return (
     <div>
-      <button onClick={() => LocalStorageClear()} className="hideforprint">
-        CLEAR
-      </button>
-      <button onClick={() => window.print()} className="hideforprint">
-        Print
-      </button>
       <div className="container">
+
+        <div className="controls">
+          <button onClick={() => LocalStorageClear()} className="hideforprint">
+            Tout effacer
+          </button>
+          &nbsp;
+          <button onClick={() => window.print()} className="hideforprint">
+            Imprimer
+          </button>
+        </div>
+
         <h1>
           Procédure de qualification&thinsp;: 88600/1/2/3 Informaticienne
           CFC/Informaticien CFC (Ordonnance 2014)
