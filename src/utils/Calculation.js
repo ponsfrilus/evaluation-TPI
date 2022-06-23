@@ -22,7 +22,7 @@ const ptsChange = () => {
   for (let mPart in marks) {
     marks[mPart].forEach((item, i) => {
       let unfilled = document.getElementById(`${item[0]}_pts`);
-      if (item[1] && typeof parseInt(item[1]) === 'number') {
+      if (item[1] && typeof parseInt(item[1]) === 'number' && parseInt(item[1]) < 4) {
         markTotal[mPart] += parseInt(item[1])
         markTotal['Tot'] += parseInt(item[1])
         unfilled.closest('.MuiGrid-container').style.backgroundColor = '';
