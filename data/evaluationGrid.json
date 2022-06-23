@@ -236,9 +236,9 @@
         "description":"Pertinence",
         "header": "L’auteur de la documentation va à l’essentiel en fournissant toutes les informations pertinentes sans entrer dans des détails superflus.",
         "qual3": "Le texte du rapport du TPI est conçu de façon optimale et les informations sont concises et les plus pertinentes possibles. Il comprend une suite logique et ne contient pas plus de détails que nécessaire à une exception près si cela est nécessaire à la compréhension d’un thème. Il ne contient pas d'informations superflues de «remplissage».",
-        "qual2": "Le texte du rapport contient au maximum pour deux points (sous-chapitres) les faiblesses suivantes : Texte trop long (remplissage) / Texte redondant / texte non pertinent / des informations importantes manquent / des informations nécessaires à comprendre des explications sont manquantes",
-        "qual1": "Le texte du rapport contient les faiblesses suivantes pour trois points au maximum : Texte trop long (remplissage) / Texte redondant / texte non pertinent / des informations importantes manquent / des informations nécessaires à comprendre des explications sont manquantes.",
-        "qual0": "Le texte du rapport contient au maximum pour plus de trois points (sous-chapitres) les faiblesses suivantes : Texte trop long (remplissage) / Texte redondant / texte non pertinent / des informations importantes manquent / des informations nécessaires à comprendre des explications sont manquantes."
+        "qual2": "Le texte du rapport contient au maximum pour deux points (sous-chapitres) les faiblesses suivantes : Texte trop long (remplissage) / texte redondant / texte non pertinent / des informations importantes manquent / des informations nécessaires à comprendre des explications sont manquantes",
+        "qual1": "Le texte du rapport contient les faiblesses suivantes pour trois points au maximum : Texte trop long (remplissage) / texte redondant / texte non pertinent / des informations importantes manquent / des informations nécessaires à comprendre des explications sont manquantes.",
+        "qual0": "Le texte du rapport contient au maximum pour plus de trois points (sous-chapitres) les faiblesses suivantes : Texte trop long (remplissage) / texte redondant / texte non pertinent / des informations importantes manquent / des informations nécessaires à comprendre des explications sont manquantes."
       }
       ,
       {
@@ -331,7 +331,7 @@
         "id": "C4",
         "description":"Echange d'information avec les experts durant le TPI",
         "header": "L’échange d’informations entre le candidat et les experts s'est fait correctement durant toute la procédure du TPI",
-        "qual3": "Le candidat a toujours répondu durant le TPI dans un délai acceptable aux questions et demandes des experts.Le candidat a envoyé à chaque échéance les documents demandés",
+        "qual3": "Le candidat a toujours répondu durant le TPI dans un délai acceptable aux questions et demandes des experts. Le candidat a envoyé à chaque échéance les documents demandés",
         "qual2": "Le candidat n'a pas répondu dans un délai acceptable, ou n'a pas envoyé un document dans les délais entre une et deux fois.",
         "qual1": "Le candidat n'a pas répondu dans un délai acceptable, ou n'a pas envoyé un document dans les délais entre trois et quatre fois.",
         "qual0": "Le candidat n'a pas répondu dans un délai acceptable, ou n'a pas envoyé un document dans les délais plus de quatre fois."
@@ -340,60 +340,60 @@
       {
         "id": "C5",
         "description":"Question des experts 1",
-        "header": "Le candidat est-il apte à répondre à la question/l'ensemble des expertsconcernant son travail de manière correcte et suffisamment professionnelle? L’étendue et le degré de finition du produit correspondent au temps investi.",
+        "header": "Le candidat est-il apte à répondre à la question/l'ensemble des experts concernant son travail de manière correcte et suffisamment professionnelle? L’étendue et le degré de finition du produit correspondent au temps investi.",
         "qual3": "Les réponses aux questions traitent de tous les aspects de façon professionnelle et différenciée. Les déclarations faites sont, lorsque nécessaire, étayées pardes exemples ou assorties de conclusions logiques. Les réponses sont correctes et reflètent les compétences techniques. Le ou la candidat-e peut aussi fournir des renseignements précis sur des détails. Il ou elle répond avec exactitude aux questions des experts, pose des questions si nécessaire et adopte un comportement correct",
         "qual2": "Les réponses aux questions négligent un ou plusieurs aspects peu importants ou un aspect d'importance cruciale n'est pas suffisamment éclairci. La plupart des déclarations sont illustrées par des exemples ou des conclusions logiques lorsque cela est nécessaire. Le candidat fournit principalement des réponses correctes et peut généralement répondre à des questions détaillées par des renseignements précis.",
-        "qual1": "Les réponses aux questions négligent un aspect de grande importance ou des aspects d'importance cruciale ne sont pas suffisamment éclaircis. Un grand nombre de déclarations ne sont pas illustrées par des exemples ou des conclusions logiques lorsque cela est nécessaire. Le candidat fournit souvent des réponses erronées ou imprécises. ",
+        "qual1": "Les réponses aux questions négligent un aspect de grande importance ou des aspects d'importance cruciale ne sont pas suffisamment éclaircis. Un grand nombre de déclarations ne sont pas illustrées par des exemples ou des conclusions logiques lorsque cela est nécessaire. Le candidat fournit souvent des réponses erronées ou imprécises.",
         "qual0": "Le candidat ne peut pas répondre correctement à la question/à l'ensemble de questions concernant son travail d'examen."
       }
       ,
       {
         "id": "C6",
         "description":"Question des experts 2",
-        "header": "Le candidat est-il apte à répondre à la question/l'ensemble des expertsconcernant son travail de manière correcte et suffisamment professionnelle? L’étendue et le degré de finition du produit correspondent au temps investi.",
+        "header": "Le candidat est-il apte à répondre à la question/l'ensemble des experts concernant son travail de manière correcte et suffisamment professionnelle? L’étendue et le degré de finition du produit correspondent au temps investi.",
         "qual3": "Les réponses aux questions traitent de tous les aspects de façon professionnelle et différenciée. Les déclarations faites sont, lorsque nécessaire, étayées pardes exemples ou assorties de conclusions logiques. Les réponses sont correctes et reflètent les compétences techniques. Le ou la candidat-e peut aussi fournir des renseignements précis sur des détails. Il ou elle répond avec exactitude aux questions des experts, pose des questions si nécessaire et adopte un comportement correct",
         "qual2": "Les réponses aux questions négligent un ou plusieurs aspects peu importants ou un aspect d'importance cruciale n'est pas suffisamment éclairci. La plupart des déclarations sont illustrées par des exemples ou des conclusions logiques lorsque cela est nécessaire. Le candidat fournit principalement des réponses correctes et peut généralement répondre à des questions détaillées par des renseignements précis.",
-        "qual1": "Les réponses aux questions négligent un aspect de grande importance ou des aspects d'importance cruciale ne sont pas suffisamment éclaircis. Un grand nombre de déclarations ne sont pas illustrées par des exemples ou des conclusions logiques lorsque cela est nécessaire. Le candidat fournit souvent des réponses erronées ou imprécises. ",
+        "qual1": "Les réponses aux questions négligent un aspect de grande importance ou des aspects d'importance cruciale ne sont pas suffisamment éclaircis. Un grand nombre de déclarations ne sont pas illustrées par des exemples ou des conclusions logiques lorsque cela est nécessaire. Le candidat fournit souvent des réponses erronées ou imprécises.",
         "qual0": "Le candidat ne peut pas répondre correctement à la question/à l'ensemble de questions concernant son travail d'examen."
       }
       ,
       {
         "id": "C7",
         "description":"Question des experts 3",
-        "header": "Le candidat est-il apte à répondre à la question/l'ensemble des expertsconcernant son travail de manière correcte et suffisamment professionnelle? L’étendue et le degré de finition du produit correspondent au temps investi.",
+        "header": "Le candidat est-il apte à répondre à la question/l'ensemble des experts concernant son travail de manière correcte et suffisamment professionnelle? L’étendue et le degré de finition du produit correspondent au temps investi.",
         "qual3": "Les réponses aux questions traitent de tous les aspects de façon professionnelle et différenciée. Les déclarations faites sont, lorsque nécessaire, étayées pardes exemples ou assorties de conclusions logiques. Les réponses sont correctes et reflètent les compétences techniques. Le ou la candidat-e peut aussi fournir des renseignements précis sur des détails. Il ou elle répond avec exactitude aux questions des experts, pose des questions si nécessaire et adopte un comportement correct",
         "qual2": "Les réponses aux questions négligent un ou plusieurs aspects peu importants ou un aspect d'importance cruciale n'est pas suffisamment éclairci. La plupart des déclarations sont illustrées par des exemples ou des conclusions logiques lorsque cela est nécessaire. Le candidat fournit principalement des réponses correctes et peut généralement répondre à des questions détaillées par des renseignements précis.",
-        "qual1": "Les réponses aux questions négligent un aspect de grande importance ou des aspects d'importance cruciale ne sont pas suffisamment éclaircis. Un grand nombre de déclarations ne sont pas illustrées par des exemples ou des conclusions logiques lorsque cela est nécessaire. Le candidat fournit souvent des réponses erronées ou imprécises. ",
+        "qual1": "Les réponses aux questions négligent un aspect de grande importance ou des aspects d'importance cruciale ne sont pas suffisamment éclaircis. Un grand nombre de déclarations ne sont pas illustrées par des exemples ou des conclusions logiques lorsque cela est nécessaire. Le candidat fournit souvent des réponses erronées ou imprécises.",
         "qual0": "Le candidat ne peut pas répondre correctement à la question/à l'ensemble de questions concernant son travail d'examen."
       }
       ,
       {
         "id": "C8",
         "description":"Question des experts 4",
-        "header": "Le candidat est-il apte à répondre à la question/l'ensemble des expertsconcernant son travail de manière correcte et suffisamment professionnelle? L’étendue et le degré de finition du produit correspondent au temps investi.",
+        "header": "Le candidat est-il apte à répondre à la question/l'ensemble des experts concernant son travail de manière correcte et suffisamment professionnelle? L’étendue et le degré de finition du produit correspondent au temps investi.",
         "qual3": "Les réponses aux questions traitent de tous les aspects de façon professionnelle et différenciée. Les déclarations faites sont, lorsque nécessaire, étayées pardes exemples ou assorties de conclusions logiques. Les réponses sont correctes et reflètent les compétences techniques. Le ou la candidat-e peut aussi fournir des renseignements précis sur des détails. Il ou elle répond avec exactitude aux questions des experts, pose des questions si nécessaire et adopte un comportement correct",
         "qual2": "Les réponses aux questions négligent un ou plusieurs aspects peu importants ou un aspect d'importance cruciale n'est pas suffisamment éclairci. La plupart des déclarations sont illustrées par des exemples ou des conclusions logiques lorsque cela est nécessaire. Le candidat fournit principalement des réponses correctes et peut généralement répondre à des questions détaillées par des renseignements précis.",
-        "qual1": "Les réponses aux questions négligent un aspect de grande importance ou des aspects d'importance cruciale ne sont pas suffisamment éclaircis. Un grand nombre de déclarations ne sont pas illustrées par des exemples ou des conclusions logiques lorsque cela est nécessaire. Le candidat fournit souvent des réponses erronées ou imprécises. ",
+        "qual1": "Les réponses aux questions négligent un aspect de grande importance ou des aspects d'importance cruciale ne sont pas suffisamment éclaircis. Un grand nombre de déclarations ne sont pas illustrées par des exemples ou des conclusions logiques lorsque cela est nécessaire. Le candidat fournit souvent des réponses erronées ou imprécises.",
         "qual0": "Le candidat ne peut pas répondre correctement à la question/à l'ensemble de questions concernant son travail d'examen."
       }
       ,
       {
         "id": "C9",
         "description":"Question des experts 5",
-        "header": "Le candidat est-il apte à répondre à la question/l'ensemble des expertsconcernant son travail de manière correcte et suffisamment professionnelle? L’étendue et le degré de finition du produit correspondent au temps investi.",
+        "header": "Le candidat est-il apte à répondre à la question/l'ensemble des experts concernant son travail de manière correcte et suffisamment professionnelle? L’étendue et le degré de finition du produit correspondent au temps investi.",
         "qual3": "Les réponses aux questions traitent de tous les aspects de façon professionnelle et différenciée. Les déclarations faites sont, lorsque nécessaire, étayées pardes exemples ou assorties de conclusions logiques. Les réponses sont correctes et reflètent les compétences techniques. Le ou la candidat-e peut aussi fournir des renseignements précis sur des détails. Il ou elle répond avec exactitude aux questions des experts, pose des questions si nécessaire et adopte un comportement correct",
         "qual2": "Les réponses aux questions négligent un ou plusieurs aspects peu importants ou un aspect d'importance cruciale n'est pas suffisamment éclairci. La plupart des déclarations sont illustrées par des exemples ou des conclusions logiques lorsque cela est nécessaire. Le candidat fournit principalement des réponses correctes et peut généralement répondre à des questions détaillées par des renseignements précis.",
-        "qual1": "Les réponses aux questions négligent un aspect de grande importance ou des aspects d'importance cruciale ne sont pas suffisamment éclaircis. Un grand nombre de déclarations ne sont pas illustrées par des exemples ou des conclusions logiques lorsque cela est nécessaire. Le candidat fournit souvent des réponses erronées ou imprécises. ",
+        "qual1": "Les réponses aux questions négligent un aspect de grande importance ou des aspects d'importance cruciale ne sont pas suffisamment éclaircis. Un grand nombre de déclarations ne sont pas illustrées par des exemples ou des conclusions logiques lorsque cela est nécessaire. Le candidat fournit souvent des réponses erronées ou imprécises.",
         "qual0": "Le candidat ne peut pas répondre correctement à la question/à l'ensemble de questions concernant son travail d'examen."
       }
       ,
       {
         "id": "C10",
         "description":"Question des experts 6",
-        "header": "Le candidat est-il apte à répondre à la question/l'ensemble des expertsconcernant son travail de manière correcte et suffisamment professionnelle? L’étendue et le degré de finition du produit correspondent au temps investi.",
+        "header": "Le candidat est-il apte à répondre à la question/l'ensemble des experts concernant son travail de manière correcte et suffisamment professionnelle? L’étendue et le degré de finition du produit correspondent au temps investi.",
         "qual3": "Les réponses aux questions traitent de tous les aspects de façon professionnelle et différenciée. Les déclarations faites sont, lorsque nécessaire, étayées pardes exemples ou assorties de conclusions logiques. Les réponses sont correctes et reflètent les compétences techniques. Le ou la candidat-e peut aussi fournir des renseignements précis sur des détails. Il ou elle répond avec exactitude aux questions des experts, pose des questions si nécessaire et adopte un comportement correct",
         "qual2": "Les réponses aux questions négligent un ou plusieurs aspects peu importants ou un aspect d'importance cruciale n'est pas suffisamment éclairci. La plupart des déclarations sont illustrées par des exemples ou des conclusions logiques lorsque cela est nécessaire. Le candidat fournit principalement des réponses correctes et peut généralement répondre à des questions détaillées par des renseignements précis.",
-        "qual1": "Les réponses aux questions négligent un aspect de grande importance ou des aspects d'importance cruciale ne sont pas suffisamment éclaircis. Un grand nombre de déclarations ne sont pas illustrées par des exemples ou des conclusions logiques lorsque cela est nécessaire. Le candidat fournit souvent des réponses erronées ou imprécises. ",
+        "qual1": "Les réponses aux questions négligent un aspect de grande importance ou des aspects d'importance cruciale ne sont pas suffisamment éclaircis. Un grand nombre de déclarations ne sont pas illustrées par des exemples ou des conclusions logiques lorsque cela est nécessaire. Le candidat fournit souvent des réponses erronées ou imprécises.",
         "qual0": "Le candidat ne peut pas répondre correctement à la question/à l'ensemble de questions concernant son travail d'examen."
       }
 
