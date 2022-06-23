@@ -32,17 +32,20 @@ const LocalStorageLoad = () => {
   const inputs = document.querySelectorAll('input')
   for (let inp of inputs) {
     let curr_val = localStorage.getItem(`${localStorageEntriesPrefix}${inp.id}`)
-    document.getElementById(inp.id).value = curr_val
+    if (curr_val) {
+      document.getElementById(inp.id).value = curr_val
+    }
   }
   const textarea = document.querySelectorAll('textarea[id$="_justification"]')
   for (let ta of textarea) {
     let curr_val = localStorage.getItem(`${localStorageEntriesPrefix}${ta.id}`)
-    document.getElementById(ta.id).value = curr_val
+    if (curr_val) {
+      document.getElementById(ta.id).value = curr_val
+    }
   }
-
   document.getElementById(
     'EvaluationComment_comment'
-  ).value = localStorage.getItem(`${localStorageEntriesPrefix}EvaluationComment_comment`)
+  ).value = localStorage.getItem(`${localStorageEntriesPrefix}EvaluationComment_comment`) ?? ''
   console.log('Something has been loaded... maybe')
 }
 
