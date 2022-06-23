@@ -1,7 +1,7 @@
 import { ptsChange } from './Calculation.js'
 
 const sampleData = () => {
-  console.log('sampleData')
+  console.log('Loading sample data...')
   document.getElementById('cdp_name').value = 'Charles De Preux'
   document.getElementById('cdp_phone').value = '+41 21 111 22 33'
   document.getElementById('cdp_mail').value = 'cdp@tpivd.ch'

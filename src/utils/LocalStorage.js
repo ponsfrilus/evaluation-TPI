@@ -60,4 +60,14 @@ const LocalStorageClear = () => {
   ptsChange()
 }
 
-export { LocalStorageSave, LocalStorageLoad, LocalStorageClear }
+const ExportLocalStorage = () => {
+  let myLocalStorage = {}
+  for (var i = 0; i < localStorage.length; i++) {
+    if (localStorage.key(i).startsWith(localStorageEntriesPrefix)) {
+      myLocalStorage[`${localStorage.key(i)}`] = localStorage.getItem(localStorage.key(i))
+    }
+  }
+  return myLocalStorage
+}
+
+export { LocalStorageSave, LocalStorageLoad, LocalStorageClear, ExportLocalStorage }
