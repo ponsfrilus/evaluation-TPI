@@ -6,19 +6,19 @@ Le but de ce projet est de faire une application permettant de remplacer le
 formulaire PDF "interactif" d'évaluation des TPI des apprentis informaticiens 
 CFC.
 
-La grille d'évaluation est diponible sur [tpivd.ch].
+La grille d'évaluation originale est disponible sur [tpivd.ch].
 
 Les objectifs de cette application sont :
 
-  * [ ] Les différents champs, informations et fonctionnalités (calcul de la
+  * [x] Les différents champs, informations et fonctionnalités (calcul de la
     note) du [fichier PDF d'évaluation] doivent être repris ;
-  * [ ] L'application doit fonctionner sur [GitHub pages] ;
-  * [ ] Elle doit utiliser le [stockage local du navigateur] (permettant de
+  * [x] L'application doit fonctionner sur [GitHub pages] ;
+  * [x] Elle doit utiliser le [stockage local du navigateur] (permettant de
     fermer le navigateur et de ne pas perdre le contenu lorsqu'on revisite la
     page) ;
   * [ ] Elle offre la possibilité d'exporter et d'importer le contenu des champs
     via un fichier [JSON] ;
-  * [ ] L'utilisateur doit pouvoir exporter le document, mit en page et
+  * [x] L'utilisateur doit pouvoir exporter le document, mit en page et
     contenant les valeurs saisies, en [PDF] pour impression, partage et
     sauvegarde.
 
