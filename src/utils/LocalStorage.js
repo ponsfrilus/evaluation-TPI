@@ -1,22 +1,29 @@
 import { ptsChange } from './Calculation.js'
 
+
+// TODO: use object in local storage with the URL as the key
+//       see https://stackoverflow.com/a/3146971/960623
+
+
+const localStorageEntriesPrefix = 'evalTPI_'
+
 const LocalStorageSave = () => {
   const inputs = document.querySelectorAll('input')
   for (let inp of inputs) {
-    localStorage.setItem(inp.id, inp.value)
+    localStorage.setItem(`${localStorageEntriesPrefix}${inp.id}`, inp.value)
   }
 
   // For some reason, materlize-ui add an hidden texaera,
-  // sp te query has to be more precise...
+  // so the query has to be more precise...
   const ta_justification = document.querySelectorAll(
     'textarea[id$="_justification"]'
   )
   for (let ta of ta_justification) {
-    localStorage.setItem(ta.id, ta.value)
+    localStorage.setItem(`${localStorageEntriesPrefix}${ta.id}`, ta.value)
   }
 
   const ta_remark = document.getElementById('EvaluationComment_comment')
-  localStorage.setItem(ta_remark.id, ta_remark.value)
+  localStorage.setItem(`${localStorageEntriesPrefix}${ta_remark.id}`, ta_remark.value)
 
   console.log('Something has been saved... maybe')
 }
@@ -24,18 +31,18 @@ const LocalStorageSave = () => {
 const LocalStorageLoad = () => {
   const inputs = document.querySelectorAll('input')
   for (let inp of inputs) {
-    let curr_val = localStorage.getItem(inp.id)
+    let curr_val = localStorage.getItem(`${localStorageEntriesPrefix}${inp.id}`)
     document.getElementById(inp.id).value = curr_val
   }
   const textarea = document.querySelectorAll('textarea[id$="_justification"]')
   for (let ta of textarea) {
-    let curr_val = localStorage.getItem(ta.id)
+    let curr_val = localStorage.getItem(`${localStorageEntriesPrefix}${ta.id}`)
     document.getElementById(ta.id).value = curr_val
   }
 
   document.getElementById(
     'EvaluationComment_comment'
-  ).value = localStorage.getItem('EvaluationComment_comment')
+  ).value = localStorage.getItem(`${localStorageEntriesPrefix}EvaluationComment_comment`)
   console.log('Something has been loaded... maybe')
 }
 
