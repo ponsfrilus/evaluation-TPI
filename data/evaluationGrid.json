@@ -8,7 +8,7 @@
         "id": "A1",
         "description": "Gestion de projet et planification",
         "header": "Les mandats complexes sont résolus à l’aide d’une méthode de gestion de projets. Pour les travaux pratiques également, il convient d’analyser les relations, de planifier le système cible, de comparer les variantes et d’élaborer un plan d’action.",
-        "qual3": "<ol><li>La méthode de gestion de projet choisie est citée dans le rapport. La méthode estappropriée au mandat.</li><li>La méthode de gestion de projet a été correctement mise en œuvre en pratique durant le TPI.</li><li>L’utilisation correcte de la méthode de projet est visible dans la documentation.</li><li>Le mandat du cahier des charges a été analysé demanière approfondie et affiné.</li></ol> Les 4 points sont remplis entièrement",
+        "qual3": "<ol><li>La méthode de gestion de projet choisie est citée dans le rapport. La méthode est appropriée au mandat.</li><li>La méthode de gestion de projet a été correctement mise en œuvre en pratique durant le TPI.</li><li>L’utilisation correcte de la méthode de projet est visible dans la documentation.</li><li>Le mandat du cahier des charges a été analysé demanière approfondie et affiné.</li></ol> Les 4 points sont remplis entièrement",
         "qual2": "Trois des points mentionnés sont accomplis",
         "qual1": "Deux des points mentionnés sont accomplis",
         "qual0": "Uniquement un ou aucun des pointsmentionnés ne sont accomplis"
@@ -195,7 +195,7 @@
         "id": "B1",
         "description":"Résumé du rapport du TPI / version succincte de la doc.",
         "header": "Un résumé conceptuel du travail effectué et du résultat obtenu permet aux lecteurs impliqués dans le projet (supérieur, experts) de mieux comprendre le travail fourni. La version succincte ne contient pas de graphiques, mais uniquement du texte.",
-        "qual3": "<ol><li>Le résumé est destiné à un public professionnel de la branche (langage, style, niveau de détail et termes techniques utilisés)</li><li>Il contient trois paragraphes: Situation de départ, mise en œuvre,résultats.</li><li>Le résumé contient pour l’ensemble des points précités que des aspects essentiels.</li><li>Il n’est pas plus long qu’une page A4 de texte et ne contient pas de graphiques</li></ol>",
+        "qual3": "<ol><li>Le résumé est destiné à un public professionnel de la branche (langage, style, niveau de détail et termes techniques utilisés)</li><li>Il contient trois paragraphes: Situation de départ, mise en œuvre, résultats.</li><li>Le résumé contient pour l’ensemble des points précités que des aspects essentiels.</li><li>Il n’est pas plus long qu’une page A4 de texte et ne contient pas de graphiques</li></ol>",
         "qual2": "Trois des points sont remplis.",
         "qual1": "Deux des points sont remplis.",
         "qual0": "Moins de deux points sont remplis."
@@ -254,8 +254,8 @@
       {
         "id": "B7",
         "description":"Expression écrite et style / orthographe et grammaire",
-        "header": "L’expression écrite est un vecteur essentiel de transmission et de compréhension des informations et des résultats. Lorsqu’ils sont utilisés à bon escient, de manière correcte et en adéquation avec les destinataires (p. ex. département informatique, spécialistes, tierces personnes), les termes techniques constituent une aide précieuse à la communication pour les informaticiens. L’orthographe influefortement sur la lisibilité et la compréhensibilité du texte. Un travail soigneux et l’utilisation appropriée des dictionnaires et des outils de correction grammaticale permettent d’éviter les fautes d’orthographe.",
-        "qual3": "<ol><li>Le langage utilisé est clair et compréhensible (structuredes phrases, ordredes mots utilisés) dans l’entier du rapport du TPI, écrit dans un style fluide avec des phrasescomplètes et parfaitement formulées.</li><li>Les termes techniques sont utilisés correctement et dans le registre approprié</li>Le rapport du TPI contient peu d’erreur d’orthographe ou de grammaire.<li></li><li>Les correcteurs électroniques d’orthographe et de grammaire ont été utilisés. </li></ol>",
+        "header": "L’expression écrite est un vecteur essentiel de transmission et de compréhension des informations et des résultats. Lorsqu’ils sont utilisés à bon escient, de manière correcte et en adéquation avec les destinataires (p. ex. département informatique, spécialistes, tierces personnes), les termes techniques constituent une aide précieuse à la communication pour les informaticiens. L’orthographe influe fortement sur la lisibilité et la compréhensibilité du texte. Un travail soigneux et l’utilisation appropriée des dictionnaires et des outils de correction grammaticale permettent d’éviter les fautes d’orthographe.",
+        "qual3": "<ol><li>Le langage utilisé est clair et compréhensible (structure des phrases, ordre des mots utilisés) dans l’entier du rapport du TPI, écrit dans un style fluide avec des phrases complètes et parfaitement formulées.</li><li>Les termes techniques sont utilisés correctement et dans le registre approprié</li>Le rapport du TPI contient peu d’erreur d’orthographe ou de grammaire.<li></li><li>Les correcteurs électroniques d’orthographe et de grammaire ont été utilisés.</li></ol>",
         "qual2": "Trois des points mentionnés sont remplis.",
         "qual1": "Deux des points mentionnés sont remplis ou trois sont partiellement remplis.",
         "qual0": "Uniquement un point est rempli ou tous les points sont remplis partiellement."
@@ -265,7 +265,7 @@
         "id": "B8",
         "description":"Présentation",
         "header": "La documentation est la carte de visite du travail pratique. Sa présentation témoigne de la cohérence et de l’adéquation du travail du ou de la candidat-e.",
-        "qual3": "<ol><li>La présentation contientune numérotation des pages appropriée.</li><li>Le saut de page est utilisé de manière appropriée ou n’entrave pas le flux de la lecturedu rapport.</li><li>Chaque page contient des informations et pas seulement une ligne de texte ou de titre.</li><li>La présentation est appropriée et propre.</li></ol>",
+        "qual3": "<ol><li>La présentation contientune numérotation des pages appropriée.</li><li>Le saut de page est utilisé de manière appropriée ou n’entrave pas le flux de la lecture du rapport.</li><li>Chaque page contient des informations et pas seulement une ligne de texte ou de titre.</li><li>La présentation est appropriée et propre.</li></ol>",
         "qual2": "Trois points sont remplis.",
         "qual1": "Deux points sont remplis.",
         "qual0": "Moins de deux points sont remplis. "
@@ -274,7 +274,7 @@
       {
         "id": "B9",
         "description":"Graphiques, images, diagrammes et tableaux",
-        "header": "Les graphiques, images, diagrammes et tableaux servent à présenter unematière complexe, à la rendre compréhensible ou à la structurer.",
+        "header": "Les graphiques, images, diagrammes et tableaux servent à présenter une matière complexe, à la rendre compréhensible ou à la structurer.",
         "qual3": "<ol><li>Des graphiques, images, diagrammes ou des tableaux sont utilisés aux endroits adéquats et permettent de mieux se représenter le contenu du rapport du TPI et rendre le texte plus compréhensible.</li><li>Le choix du schéma/de la représentation est approprié dans l’entier du TPI.</li><li>Les images sont visuellement lisibles</li><li>Les images sont compréhensibles au niveau du contenu.</li><li>Les illustrations sont pertinentes et représentatives.</li><li>Les illustrations sont expliquées dans une légende ou un texte.</li><li>Les illustrations sont appropriées au contexte.</li></ol>",
         "qual2": "6 aspects sont bien remplis.",
         "qual1": "4 aspects sont bien remplis.",
@@ -285,7 +285,7 @@
         "id": "B10",
         "description":"Documentation de la procédure de tests et de ses résultats",
         "header": "Les résultats des tests sont compréhensibles et reproductibles lorsque l’installation de test, les méthodes et les outils utilisés à cet effetsont décrits de telle manière que des spécialistes externes puissent exécuter eux-mêmes la procédure. Tous les tests, prévus ou imprévus, sont documentés.",
-        "qual3": "<ol><li>Le protocole de tests est basé sur l’équipement de test, les scénariosde tests et les moyens d’aide à disposition.</li><li>Il est facilement compréhensible.</li><li>Les actions et les paramètres sont décrits sans aucune ambiguité.</li><li>Tous les résultats des tests sont documentés.</li></ol>",
+        "qual3": "<ol><li>Le protocole de tests est basé sur l’équipement de test, les scénarios de tests et les moyens d’aide à disposition.</li><li>Il est facilement compréhensible.</li><li>Les actions et les paramètres sont décrits sans aucune ambiguité.</li><li>Tous les résultats des tests sont documentés.</li></ol>",
         "qual2": "Trois des aspects sont bien remplis.",
         "qual1": "Deux des aspects sont bien remplis.",
         "qual0": "Moins de deux aspects sont bien remplis."
@@ -301,7 +301,7 @@
         "id": "C1",
         "description":"Gestion du temps, structure",
         "header": "La structure et le contenu de la présentation se limitent aux principaux aspects (tâches, déroulement, résultats) du TPI. Le temps imparti pour la présentation doit être respecté.",
-        "qual3": "<ol><li>La présentation comporte une introduction avec un bref aperçu qui fait le lien avec la suite de la présentation et contient donc une partie centrale ainsi qu’une conclusion comprenant une évaluation critique du travail effectué. </li><li>La présentation fait ressortir les aspects essentiels du résultat du TPI.</li><li>La présentation se concentre sur les aspects pertinents.</li><li>La présentation est faite dans un ordre logique et construite de manière cohérente.</li><li>Le temps de présentation est strictement respecté.</li></ol>",
+        "qual3": "<ol><li>La présentation comporte une introduction avec un bref aperçu qui fait le lien avec la suite de la présentation et contient donc une partie centrale ainsi qu’une conclusion comprenant une évaluation critique du travail effectué.</li><li>La présentation fait ressortir les aspects essentiels du résultat du TPI.</li><li>La présentation se concentre sur les aspects pertinents.</li><li>La présentation est faite dans un ordre logique et construite de manière cohérente.</li><li>Le temps de présentation est strictement respecté.</li></ol>",
         "qual2": "Trois points des points 1 à 4 sont remplis ou le temps de présentation n’a pas été dépassé de plus de 2 minutes.",
         "qual1": "Deux points des points 1 à 4 sont respectés ou le temps de présentation n’a pas été dépassé ou été inférieur de plus de 4 minutes.",
         "qual0": "Un seul point des points 1 à 4 est rempli ou le temps de présentation a été dépassé ou été inférieur de plus de 4 minutes."
@@ -321,7 +321,7 @@
         "id": "C3",
         "description":"Technique de présentation",
         "header": "La présentation se fait dans la langue employée à l’école. Le ou la candidat-e doit formuler des phrases correctes et intelligibles. Les formulations et le langage technique sont en adéquation avec le public cible (spécialistes, experts). Le volume de la voix, la vitesse d’élocution ainsi que la gestuelle sont adaptés au public cible et aux locaux.",
-        "qual3": "<ol><li>Les déclarations sont parfaitement formulées.</li><li>Les phrases sont formulées de manière claire, complèteetlinguistiquement correcte.</li><li>La discussion est claire.</li><li>La gestuelle/les mimiques sont adaptées au publiccible.</li><li>Un contact visuelfréquent est visible et ce avec tous les auditeurs.</li></ol>",
+        "qual3": "<ol><li>Les déclarations sont parfaitement formulées.</li><li>Les phrases sont formulées de manière claire, complète etl inguistiquement correcte.</li><li>La discussion est claire.</li><li>La gestuelle/les mimiques sont adaptées au public cible.</li><li>Un contact visuel fréquent est visible et ce avec tous les auditeurs.</li></ol>",
         "qual2": "Quatre points sont remplis.",
         "qual1": "Trois points sont remplis.",
         "qual0": "Deux points ou moins de deux points sont remplis."
