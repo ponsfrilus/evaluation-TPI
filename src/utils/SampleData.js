@@ -1,4 +1,5 @@
 import { ptsChange } from './Calculation.js'
+import { LocalStorageSave } from './LocalStorage'
 
 const sampleData = () => {
   console.log('Loading sample data...')
@@ -44,8 +45,13 @@ const sampleData = () => {
       .getElementById(inp.id)
       .closest('.MuiGrid-container').style.backgroundColor = ''
   }
+  
+  document.getElementById(
+    'EvaluationComment_comment'
+  ).value = 'Un commentaire général sur le TPI de Candide Hatte.'
 
   ptsChange()
+  LocalStorageSave()
 }
 
 export { sampleData }

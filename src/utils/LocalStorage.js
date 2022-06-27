@@ -8,7 +8,8 @@ import { ptsChange } from './Calculation.js'
 const localStorageEntriesPrefix = 'evalTPI_'
 
 const LocalStorageSave = () => {
-  const inputs = document.querySelectorAll('input')
+  console.log('Saving data...')
+  const inputs = document.querySelectorAll('input[type=text], input[type=number]')
   for (let inp of inputs) {
     localStorage.setItem(`${localStorageEntriesPrefix}${inp.id}`, inp.value)
   }
@@ -24,33 +25,32 @@ const LocalStorageSave = () => {
 
   const ta_remark = document.getElementById('EvaluationComment_comment')
   localStorage.setItem(`${localStorageEntriesPrefix}${ta_remark.id}`, ta_remark.value)
-
-  console.log('Something has been saved... maybe')
 }
 
 const LocalStorageLoad = () => {
-  const inputs = document.querySelectorAll('input')
+  console.log('Loading data...')
+  const inputs = document.querySelectorAll('input[type=text], input[type=number]')
   for (let inp of inputs) {
-    let curr_val = localStorage.getItem(`${localStorageEntriesPrefix}${inp.id}`)
-    if (curr_val) {
+    let curr_val = localStorage.getItem(`${localStorageEntriesPrefix}${inp.id}`) ?? ''
+    if (curr_val !== null && curr_val !== '') {
       document.getElementById(inp.id).value = curr_val
     }
   }
   const textarea = document.querySelectorAll('textarea[id$="_justification"]')
   for (let ta of textarea) {
-    let curr_val = localStorage.getItem(`${localStorageEntriesPrefix}${ta.id}`)
-    if (curr_val) {
+    let curr_val = localStorage.getItem(`${localStorageEntriesPrefix}${ta.id}`) ?? ''
+    if (curr_val !== null && curr_val !== '') {
       document.getElementById(ta.id).value = curr_val
     }
   }
   document.getElementById(
     'EvaluationComment_comment'
   ).value = localStorage.getItem(`${localStorageEntriesPrefix}EvaluationComment_comment`) ?? ''
-  console.log('Something has been loaded... maybe')
 }
 
 const LocalStorageClear = () => {
-  const inputs = document.querySelectorAll('input')
+  console.log('Clearing data...')
+  const inputs = document.querySelectorAll('input[type=text], input[type=number]')
   for (let inp of inputs) {
     document.getElementById(inp.id).value = ''
   }
@@ -59,11 +59,11 @@ const LocalStorageClear = () => {
     document.getElementById(ta.id).value = ''
   }
   localStorage.clear()
-  console.log('Something has been cleared... maybe')
   ptsChange()
 }
 
 const ExportLocalStorage = () => {
+  console.log('Exporting data...')
   let myLocalStorage = {}
   for (var i = 0; i < localStorage.length; i++) {
     if (localStorage.key(i).startsWith(localStorageEntriesPrefix)) {
