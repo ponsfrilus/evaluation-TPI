@@ -1,9 +1,7 @@
 import { ptsChange } from './Calculation.js'
 
-
 // TODO: use object in local storage with the URL as the key
 //       see https://stackoverflow.com/a/3146971/960623
-
 
 const localStorageEntriesPrefix = 'evalTPI_'
 
@@ -65,7 +63,7 @@ const LocalStorageClear = () => {
 const ImportDataFromFile = (data) => {
   console.log('Importing data...')
   let myData = JSON.parse(data)
-  localStorage.clear()
+  LocalStorageClear()
   for (const key in myData) {
     //console.log(`${key}: ${myData[key]}`)
     localStorage.setItem(key, myData[key])

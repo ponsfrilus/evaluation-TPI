@@ -16,6 +16,7 @@ const FileUploader = ({ onFileSelect }) => {
       let replaceData = window.confirm(`Êtes-vous sur de vouloir charger le fichier «${fileName}»`)
       if (replaceData) {
         ImportDataFromFile(text)
+        document.getElementById('uploadJSONdata').value = "";
       }
     }
     reader.readAsText(e.target.files[0])
@@ -23,7 +24,7 @@ const FileUploader = ({ onFileSelect }) => {
 
   return (
     <div className="file-uploader" >
-      <input type="file" onChange={handleFileInput} />
+      <input id="uploadJSONdata" type="file" onChange={handleFileInput} />
     </div>
   )
 
