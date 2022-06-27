@@ -225,7 +225,7 @@
         "id": "B4",
         "description":"Structure",
         "header": "Une documentation est compréhensible lorsqu’elle est conçue de manière clairepour un spécialiste extérieur. Les diverses étapes suivent un fil rouge et présentent une structure cohérente.",
-        "qual3": "<ol><li>La documentation est divisée en chapitres en rapport avec les thèmes et les points principaux du projet.</li><li>La documentation est clairement structurée et les titres utilisés contiennent uncontenu approprié.</li><li>L’ordre des thèmes traités dans la documentation est bien coordonné.</li><li>La conception des titres, textes et graphiques simplifie la lecture du rapport et ne l’entrave en aucun cas.</li></ol>",
+        "qual3": "<ol><li>La documentation est divisée en chapitres en rapport avec les thèmes et les points principaux du projet.</li><li>La documentation est clairement structurée et les titres utilisés contiennent un contenu approprié.</li><li>L’ordre des thèmes traités dans la documentation est bien coordonné.</li><li>La conception des titres, textes et graphiques simplifie la lecture du rapport et ne l’entrave en aucun cas.</li></ol>",
         "qual2": "Trois des points cités sont remplis.",
         "qual1": "Deux des points cités sont remplis ou les quatre points sont partiellement remplis.",
         "qual0": "Un ou aucun des points cités n’est rempli."
@@ -255,7 +255,7 @@
         "id": "B7",
         "description":"Expression écrite et style / orthographe et grammaire",
         "header": "L’expression écrite est un vecteur essentiel de transmission et de compréhension des informations et des résultats. Lorsqu’ils sont utilisés à bon escient, de manière correcte et en adéquation avec les destinataires (p. ex. département informatique, spécialistes, tierces personnes), les termes techniques constituent une aide précieuse à la communication pour les informaticiens. L’orthographe influe fortement sur la lisibilité et la compréhensibilité du texte. Un travail soigneux et l’utilisation appropriée des dictionnaires et des outils de correction grammaticale permettent d’éviter les fautes d’orthographe.",
-        "qual3": "<ol><li>Le langage utilisé est clair et compréhensible (structure des phrases, ordre des mots utilisés) dans l’entier du rapport du TPI, écrit dans un style fluide avec des phrases complètes et parfaitement formulées.</li><li>Les termes techniques sont utilisés correctement et dans le registre approprié</li>Le rapport du TPI contient peu d’erreur d’orthographe ou de grammaire.<li></li><li>Les correcteurs électroniques d’orthographe et de grammaire ont été utilisés.</li></ol>",
+        "qual3": "<ol><li>Le langage utilisé est clair et compréhensible (structure des phrases, ordre des mots utilisés) dans l’entier du rapport du TPI, écrit dans un style fluide avec des phrases complètes et parfaitement formulées.</li><li>Les termes techniques sont utilisés correctement et dans le registre approprié</li><li>Le rapport du TPI contient peu d’erreur d’orthographe ou de grammaire.</li><li>Les correcteurs électroniques d’orthographe et de grammaire ont été utilisés.</li></ol>",
         "qual2": "Trois des points mentionnés sont remplis.",
         "qual1": "Deux des points mentionnés sont remplis ou trois sont partiellement remplis.",
         "qual0": "Uniquement un point est rempli ou tous les points sont remplis partiellement."
@@ -265,7 +265,7 @@
         "id": "B8",
         "description":"Présentation",
         "header": "La documentation est la carte de visite du travail pratique. Sa présentation témoigne de la cohérence et de l’adéquation du travail du ou de la candidat-e.",
-        "qual3": "<ol><li>La présentation contientune numérotation des pages appropriée.</li><li>Le saut de page est utilisé de manière appropriée ou n’entrave pas le flux de la lecture du rapport.</li><li>Chaque page contient des informations et pas seulement une ligne de texte ou de titre.</li><li>La présentation est appropriée et propre.</li></ol>",
+        "qual3": "<ol><li>La présentation contient une numérotation des pages appropriée.</li><li>Le saut de page est utilisé de manière appropriée ou n’entrave pas le flux de la lecture du rapport.</li><li>Chaque page contient des informations et pas seulement une ligne de texte ou de titre.</li><li>La présentation est appropriée et propre.</li></ol>",
         "qual2": "Trois points sont remplis.",
         "qual1": "Deux points sont remplis.",
         "qual0": "Moins de deux points sont remplis. "
