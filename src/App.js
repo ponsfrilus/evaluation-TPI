@@ -13,7 +13,7 @@ import {
   LocalStorageLoad,
   LocalStorageClear
 } from './utils/LocalStorage.js'
-import { ExportToJson } from './components/FileDownloader'
+import { FileDownloader } from './components/FileDownloader'
 import { FileUploader } from './components/FileUploader'
 import { ptsChange } from './utils/Calculation.js'
 import { sampleData } from './utils/SampleData.js'
@@ -70,9 +70,7 @@ function App() {
             Imprimer
           </button>
           &nbsp;
-          <button type='button' onClick={ExportToJson}>
-            Export to JSON
-          </button>
+          <FileDownloader />
           <form>
             <FileUploader />
           </form>

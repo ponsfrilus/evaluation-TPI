@@ -1,4 +1,4 @@
-import { ExportDataToFile } from '../utils/LocalStorage'
+import { ExportDataToFile, GetCandidateName } from '../utils/LocalStorage'
 
 // https://theroadtoenterprise.com/blog/how-to-download-csv-and-json-files-in-react
 const downloadFile = ({ data, fileName, fileType }) => {
@@ -18,13 +18,28 @@ const downloadFile = ({ data, fileName, fileType }) => {
   a.remove()
 }
 
+const CleanFileName = () => {
+  if ( GetCandidateName() ) {
+    return '_' + GetCandidateName().replace(/[^a-zA-Z0-9 ]/g, '').replace(' ', '_')
+  }
+  return ''
+}
+
 const ExportToJson = e => {
   e.preventDefault()
   downloadFile({
     data: JSON.stringify(ExportDataToFile(), null, 2),
-    fileName: 'evaluation-TPI.json',
+    fileName: `evaluation-TPI${CleanFileName()}.json`,
     fileType: 'text/json',
   })
 }
 
-export { ExportToJson }
+const FileDownloader = () => {
+  return (
+    <button type='button' onClick={ExportToJson}>
+      Export to JSON
+    </button>
+  )
+}
+
+export { FileDownloader }

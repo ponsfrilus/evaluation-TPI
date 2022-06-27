@@ -25,6 +25,10 @@ const LocalStorageSave = () => {
   localStorage.setItem(`${localStorageEntriesPrefix}${ta_remark.id}`, ta_remark.value)
 }
 
+const GetCandidateName = () => {
+  return localStorage.getItem(`${localStorageEntriesPrefix}cand_name`) ?? null
+}
+
 const LocalStorageLoad = () => {
   console.log('Loading data...')
   const inputs = document.querySelectorAll('input[type=text], input[type=number]')
@@ -83,4 +87,4 @@ const ExportDataToFile = () => {
   return myLocalStorage
 }
 
-export { LocalStorageSave, LocalStorageLoad, LocalStorageClear, ImportDataFromFile, ExportDataToFile }
+export { LocalStorageSave, LocalStorageLoad, LocalStorageClear, ImportDataFromFile, ExportDataToFile, GetCandidateName }
