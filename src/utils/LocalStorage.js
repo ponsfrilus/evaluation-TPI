@@ -62,7 +62,19 @@ const LocalStorageClear = () => {
   ptsChange()
 }
 
-const ExportLocalStorage = () => {
+const ImportDataFromFile = (data) => {
+  console.log('Importing data...')
+  let myData = JSON.parse(data)
+  localStorage.clear()
+  for (const key in myData) {
+    //console.log(`${key}: ${myData[key]}`)
+    localStorage.setItem(key, myData[key])
+  }
+  LocalStorageLoad()
+  ptsChange()
+}
+
+const ExportDataToFile = () => {
   console.log('Exporting data...')
   let myLocalStorage = {}
   for (var i = 0; i < localStorage.length; i++) {
@@ -73,4 +85,4 @@ const ExportLocalStorage = () => {
   return myLocalStorage
 }
 
-export { LocalStorageSave, LocalStorageLoad, LocalStorageClear, ExportLocalStorage }
+export { LocalStorageSave, LocalStorageLoad, LocalStorageClear, ImportDataFromFile, ExportDataToFile }

@@ -13,10 +13,12 @@ import {
   LocalStorageSave,
   LocalStorageLoad,
   LocalStorageClear,
-  ExportLocalStorage,
+  ExportDataToFile
 } from './utils/LocalStorage.js'
 import { ptsChange } from './utils/Calculation.js'
 import { sampleData } from './utils/SampleData.js'
+
+import { FileUploader } from './components/FileUploader'
 
 function App() {
   // https://www.freecodecamp.org/news/fetch-data-react/
@@ -72,11 +74,14 @@ function App() {
           &nbsp;
           {/* https://stackoverflow.com/questions/55613438/reactwrite-to-json-file-or-export-download-no-server */}
           <a
-            href={`data:text/json;charset=utf-8,${encodeURIComponent(JSON.stringify(ExportLocalStorage(), null, 2))}`}
+            href={`data:text/json;charset=utf-8,${encodeURIComponent(JSON.stringify(ExportDataToFile(), null, 2))}`}
             download="evaluation-TPI.json"
           >
             <button>{`Export JSON data`}</button>
           </a>
+          <form>
+            <FileUploader />
+          </form>
         </div>
 
         <h1>
