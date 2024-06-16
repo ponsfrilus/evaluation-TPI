@@ -43,7 +43,7 @@
       {
         "id": "A5",
         "description": "Environnement de projet: limites du système / interfaces avec le monde extérieur",
-        "header": "L’intégration du mandat dans son environnement est <mark>documentée</mark>.",
+        "header": "L’intégration du mandat dans son environnement est documentée.",
         "qual3": "Le candidat connait les limites de l'environnement de son projet et peut les décrire. Il connait en <mark>détail les différentes interfaces et les a documentées</mark>.",
         "qual2": "Le candidat connaît les interfaces mais ne sait que partiellement ce qu'elles engendrent ou elles ne sont que partiellement documentées.",
         "qual1": "Le candidat se représente vaguement l'environnement et ne connaît pas les interfaces ou ne les a quasiment pas documentées.",
@@ -234,8 +234,8 @@
       {
         "id": "B5",
         "description":"Pertinence",
-        "header": "L’auteur de la documentation va à l’essentiel en fournissant toutes les informations pertinentes sans entrer dans des <mark>détails superflus</mark>.",
-        "qual3": "Le texte du rapport du TPI est conçu de façon <mark>optimale</mark> et les informations sont concises et les plus pertinentes possibles. Il comprend une suite logique et ne contient pas plus de détails que nécessaire à une exception près si cela est nécessaire à la compréhension d’un thème. Il ne contient pas d'informations superflues de «remplissage».",
+        "header": "L’auteur de la documentation va à l’essentiel en fournissant toutes les informations pertinentes sans entrer dans des détails superflus.",
+        "qual3": "Le texte du rapport du TPI est conçu de façon <mark>optimale</mark> et les informations sont concises et les plus pertinentes possibles. Il comprend une suite logique et ne contient pas plus de détails que nécessaire à une exception près si cela est nécessaire à la compréhension d’un thème. Il ne contient <mark>pas d'informations superflues</mark> de «remplissage».",
         "qual2": "Le texte du rapport contient au maximum pour deux points (sous-chapitres) les faiblesses suivantes : Texte trop long (remplissage) / texte redondant / texte non pertinent / des informations importantes manquent / des informations nécessaires à comprendre des explications sont manquantes",
         "qual1": "Le texte du rapport contient les faiblesses suivantes pour trois points au maximum : Texte trop long (remplissage) / texte redondant / texte non pertinent / des informations importantes manquent / des informations nécessaires à comprendre des explications sont manquantes.",
         "qual0": "Le texte du rapport contient au maximum pour plus de trois points (sous-chapitres) les faiblesses suivantes : Texte trop long (remplissage) / texte redondant / texte non pertinent / des informations importantes manquent / des informations nécessaires à comprendre des explications sont manquantes."
