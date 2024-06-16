@@ -108,7 +108,10 @@ export default function HelpPopover({ data }) {
               </tr>
               <tr>
                 <td className={classes.popoverTableId}>{data.id}</td>
-                <td className={classes.popoverTableHeader}>{data.header}</td>
+                <td 
+                  className={classes.popoverTableHeader}
+                  dangerouslySetInnerHTML={{ __html: data.header }}>
+                </td>
               </tr>
             </thead>
             <tbody className={classes.popoverTableBody}>
