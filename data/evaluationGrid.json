@@ -195,7 +195,7 @@
         "id": "B1",
         "description":"Résumé du rapport du TPI / version succincte de la doc.",
         "header": "Un résumé conceptuel du travail effectué et du résultat obtenu permet aux lecteurs impliqués dans le projet (supérieur, experts) de mieux comprendre le travail fourni. La version succincte ne contient pas de graphiques, mais uniquement du texte.",
-        "qual3": "<ol><li>Le résumé est destiné à un public professionnel de la branche (langage, style, niveau de détail et termes techniques utilisés)</li><li>Il contient trois paragraphes: Situation de départ, mise en œuvre, résultats.</li><li>Le résumé contient pour l’ensemble des points précités que des aspects essentiels.</li><li>Il n’est pas plus long qu’une page A4 de texte et ne contient pas de graphiques</li></ol>",
+        "qual3": "<ol><li>Le résumé est destiné à un <mark>public professionnel</mark> de la branche (langage, style, niveau de détail et termes techniques utilisés)</li><li>Il contient trois paragraphes: <mark>Situation de départ, mise en œuvre, résultats</mark>.</li><li>Le résumé contient pour l’ensemble des points précités que des aspects essentiels.</li><li>Il n’est pas plus long qu’une <mark>page A4</mark> de texte et ne contient <mark>pas de graphiques</mark>.</li></ol>",
         "qual2": "Trois des points sont remplis.",
         "qual1": "Deux des points sont remplis.",
         "qual0": "Moins de deux points sont remplis."
@@ -205,7 +205,7 @@
         "id": "B2",
         "description":"Tenue du journal de travail",
         "header": "Le journal de travail sert à documenter les activités quotidiennes, les problèmes rencontrés ainsi que les éventuels travaux imprévus, aides et heures supplémentaires. Il est clairement structuré et se réfère au plan du projet.",
-        "qual3": "<ol><li>La structure et la présentation sont claires.</li><li>Toutes les activités planifiées ainsi que les imprévus et les heures supplémentaires y sont mentionnés.</li><li>Les succès et les échecs sont mentionnés.</li><li>Le travail journalier et son appréciation critique y figurent.</li></ol>",
+        "qual3": "<ol><li>La structure et la présentation sont claires.</li><li>Toutes les activités planifiées ainsi que les imprévus et les <mark>heures supplémentaires</mark> y sont mentionnés.</li><li>Les succès et les échecs sont mentionnés.</li><li>Le travail journalier et son <mark>appréciation critique</mark> y figurent.</li></ol>",
         "qual2": "Trois des points d’évaluation sont remplis.",
         "qual1": "Deux points d’évaluation sont remplis.",
         "qual0": "Moins de deux exigences sont remplies ou l'aide de la part d'une personne tierce n'est pas mentionnée ou de toute évidence les heures supplémentaires effectuées ne sont pas mentionnées."
@@ -215,7 +215,7 @@
         "id": "B3",
         "description":"Capacité de réflexion",
         "header": "La réflexion est la capacité de la personne en formation d’analyser la manière dont elle a exécuté la tâche dans son ensemble et d’identifier les points où elle pourrait s’améliorer. Ces constats sont documentés dans le journal de travail et dans la conclusion.",
-        "qual3": "<ol><li>Le rapport contient une réflexion critique du candidat sur l’approche qu’il a suivie et les résultats obtenus.</li><li>Compare les variantes de solutions possibles ou justifie pourquoi il n’y a pas de variantes.</li><li>Tire ses propres conclusions qui reflètent sa réflexion.</li><li>Le mot de la fin/la conclusion comprend un bilan personnel.</li></ol>",
+        "qual3": "<ol><li>Le <mark>rapport contient</mark> une réflexion critique du candidat sur l’approche qu’il a suivie et les résultats obtenus.</li><li>Compare les variantes de solutions possibles ou justifie pourquoi il n’y a pas de variantes.</li><li>Tire ses propres conclusions qui reflètent sa réflexion.</li><li>Le mot de la fin/la conclusion comprend un <mark>bilan personnel</mark>.</li></ol>",
         "qual2": "Trois des points cités sont remplis.",
         "qual1": "Deux des points cités sont remplis ou les quatre points sont partiellement remplis.",
         "qual0": "Un ou aucun des points mentionnés n’est rempli."
@@ -234,8 +234,8 @@
       {
         "id": "B5",
         "description":"Pertinence",
-        "header": "L’auteur de la documentation va à l’essentiel en fournissant toutes les informations pertinentes sans entrer dans des détails superflus.",
-        "qual3": "Le texte du rapport du TPI est conçu de façon optimale et les informations sont concises et les plus pertinentes possibles. Il comprend une suite logique et ne contient pas plus de détails que nécessaire à une exception près si cela est nécessaire à la compréhension d’un thème. Il ne contient pas d'informations superflues de «remplissage».",
+        "header": "L’auteur de la documentation va à l’essentiel en fournissant toutes les informations pertinentes sans entrer dans des <mark>détails superflus</mark>.",
+        "qual3": "Le texte du rapport du TPI est conçu de façon <mark>optimale</mark> et les informations sont concises et les plus pertinentes possibles. Il comprend une suite logique et ne contient pas plus de détails que nécessaire à une exception près si cela est nécessaire à la compréhension d’un thème. Il ne contient pas d'informations superflues de «remplissage».",
         "qual2": "Le texte du rapport contient au maximum pour deux points (sous-chapitres) les faiblesses suivantes : Texte trop long (remplissage) / texte redondant / texte non pertinent / des informations importantes manquent / des informations nécessaires à comprendre des explications sont manquantes",
         "qual1": "Le texte du rapport contient les faiblesses suivantes pour trois points au maximum : Texte trop long (remplissage) / texte redondant / texte non pertinent / des informations importantes manquent / des informations nécessaires à comprendre des explications sont manquantes.",
         "qual0": "Le texte du rapport contient au maximum pour plus de trois points (sous-chapitres) les faiblesses suivantes : Texte trop long (remplissage) / texte redondant / texte non pertinent / des informations importantes manquent / des informations nécessaires à comprendre des explications sont manquantes."
@@ -245,7 +245,7 @@
         "id": "B6",
         "description":"Respect des prescriptions formelles du rapport du TPI",
         "header": "Il s’agit ici d’évaluer le caractère exhaustif de la documentation du point de vue formel, conformément aux prescriptions de l’expert en chef cantonal.",
-        "qual3": "<ol><li>La mise en page et le contenu du PDF et du fichier Word/de la version imprimée sont identiques</li><li>Le rapport est séparé en deux parties distinctes. Le code source est annexé.</li><li>Le rapport contient : L’organisation du projet, le journal, le planning.</li><li>Le rapport du TPI contient une table des matières à jour (num. page etc.).</li><li>Le rapport contient une liste des sources et références complète et structurée.</li><li>Le rapport du TPI contient un entête et un pied de page sur toutes les pages comprenant la date d’impression et le nom du candidat.</li><li>Le rapport du TPI contient un glossaire trié alphabétiquement comprenant les termes spécifiques au TPI.</li></ol>",
+        "qual3": "<ol><li>La mise en page et le contenu du PDF et <!-- du fichier Word/ -->de la version imprimée sont identiques</li><li>Le rapport est séparé en deux parties distinctes. Le code source est annexé.</li><li>Le rapport contient : L’organisation du projet, le journal, le planning.</li><li>Le rapport du TPI contient une <mark>table des matières à jour</mark> (num. page etc.).</li><li>Le rapport contient une <mark>liste des sources et références</mark> complète et structurée.</li><li>Le rapport du TPI contient un <mark>entête et un pied de page</mark> sur toutes les pages comprenant la date d’impression et le nom du candidat.</li><li>Le rapport du TPI contient un <mark>glossaire trié alphabétiquement</mark> comprenant les termes spécifiques au TPI.</li></ol>",
         "qual2": "Le point 1 et 5 autres points sont entièrement remplis.",
         "qual1": "Le point 1 et au moins 3 autres sont remplis.",
         "qual0": "Le niveau de qualité 1 n’est pas atteint ou moins de cinq points sont atteints."
@@ -255,7 +255,7 @@
         "id": "B7",
         "description":"Expression écrite et style / orthographe et grammaire",
         "header": "L’expression écrite est un vecteur essentiel de transmission et de compréhension des informations et des résultats. Lorsqu’ils sont utilisés à bon escient, de manière correcte et en adéquation avec les destinataires (p. ex. département informatique, spécialistes, tierces personnes), les termes techniques constituent une aide précieuse à la communication pour les informaticiens. L’orthographe influe fortement sur la lisibilité et la compréhensibilité du texte. Un travail soigneux et l’utilisation appropriée des dictionnaires et des outils de correction grammaticale permettent d’éviter les fautes d’orthographe.",
-        "qual3": "<ol><li>Le langage utilisé est clair et compréhensible (structure des phrases, ordre des mots utilisés) dans l’entier du rapport du TPI, écrit dans un style fluide avec des phrases complètes et parfaitement formulées.</li><li>Les termes techniques sont utilisés correctement et dans le registre approprié</li><li>Le rapport du TPI contient peu d’erreur d’orthographe ou de grammaire.</li><li>Les correcteurs électroniques d’orthographe et de grammaire ont été utilisés.</li></ol>",
+        "qual3": "<ol><li>Le langage utilisé est clair et compréhensible (structure des phrases, ordre des mots utilisés) dans l’entier du rapport du TPI, écrit dans un style fluide avec des phrases complètes et <mark>parfaitement formulées</mark>.</li><li>Les <mark>termes techniques</mark> sont utilisés correctement et dans le registre approprié</li><li>Le rapport du TPI contient <mark>peu d’erreur d’orthographe ou de grammaire</mark>.</li><li>Les correcteurs électroniques d’orthographe et de grammaire ont été utilisés.</li></ol>",
         "qual2": "Trois des points mentionnés sont remplis.",
         "qual1": "Deux des points mentionnés sont remplis ou trois sont partiellement remplis.",
         "qual0": "Uniquement un point est rempli ou tous les points sont remplis partiellement."
@@ -265,7 +265,7 @@
         "id": "B8",
         "description":"Présentation",
         "header": "La documentation est la carte de visite du travail pratique. Sa présentation témoigne de la cohérence et de l’adéquation du travail du ou de la candidat-e.",
-        "qual3": "<ol><li>La présentation contient une numérotation des pages appropriée.</li><li>Le saut de page est utilisé de manière appropriée ou n’entrave pas le flux de la lecture du rapport.</li><li>Chaque page contient des informations et pas seulement une ligne de texte ou de titre.</li><li>La présentation est appropriée et propre.</li></ol>",
+        "qual3": "<ol><li>La présentation contient une numérotation des pages appropriée.</li><li>Le saut de page est utilisé de manière appropriée ou n’entrave pas le flux de la lecture du rapport.</li><li>Chaque page contient des informations et <mark>pas seulement une ligne de texte ou de titre</mark>.</li><li>La présentation est appropriée et propre.</li></ol>",
         "qual2": "Trois points sont remplis.",
         "qual1": "Deux points sont remplis.",
         "qual0": "Moins de deux points sont remplis. "
@@ -275,7 +275,7 @@
         "id": "B9",
         "description":"Graphiques, images, diagrammes et tableaux",
         "header": "Les graphiques, images, diagrammes et tableaux servent à présenter une matière complexe, à la rendre compréhensible ou à la structurer.",
-        "qual3": "<ol><li>Des graphiques, images, diagrammes ou des tableaux sont utilisés aux endroits adéquats et permettent de mieux se représenter le contenu du rapport du TPI et rendre le texte plus compréhensible.</li><li>Le choix du schéma/de la représentation est approprié dans l’entier du TPI.</li><li>Les images sont visuellement lisibles</li><li>Les images sont compréhensibles au niveau du contenu.</li><li>Les illustrations sont pertinentes et représentatives.</li><li>Les illustrations sont expliquées dans une légende ou un texte.</li><li>Les illustrations sont appropriées au contexte.</li></ol>",
+        "qual3": "<ol><li>Des graphiques, images, diagrammes ou des tableaux sont utilisés aux endroits adéquats et permettent de mieux se représenter le contenu du rapport du TPI et rendre le texte plus compréhensible.</li><li>Le choix du schéma/de la représentation est approprié dans l’entier du TPI.</li><li>Les images sont <mark>visuellement lisibles</mark>.</li><li>Les images sont compréhensibles au niveau du contenu.</li><li>Les illustrations sont pertinentes et représentatives.</li><li>Les illustrations sont <mark>expliquées dans une légende</mark> ou un texte.</li><li>Les illustrations sont appropriées au contexte.</li></ol>",
         "qual2": "6 aspects sont bien remplis.",
         "qual1": "4 aspects sont bien remplis.",
         "qual0": "Moins de 4 aspects sont bien remplis."
@@ -284,8 +284,8 @@
       {
         "id": "B10",
         "description":"Documentation de la procédure de tests et de ses résultats",
-        "header": "Les résultats des tests sont compréhensibles et reproductibles lorsque l’installation de test, les méthodes et les outils utilisés à cet effetsont décrits de telle manière que des spécialistes externes puissent exécuter eux-mêmes la procédure. Tous les tests, prévus ou imprévus, sont documentés.",
-        "qual3": "<ol><li>Le protocole de tests est basé sur l’équipement de test, les scénarios de tests et les moyens d’aide à disposition.</li><li>Il est facilement compréhensible.</li><li>Les actions et les paramètres sont décrits sans aucune ambiguité.</li><li>Tous les résultats des tests sont documentés.</li></ol>",
+        "header": "Les résultats des tests sont <mark>compréhensibles et reproductibles</mark> lorsque l’installation de test, les méthodes et les outils utilisés à cet effetsont décrits de telle manière que des spécialistes externes puissent exécuter eux-mêmes la procédure. Tous les tests, prévus ou imprévus, sont documentés.",
+        "qual3": "<ol><li>Le protocole de tests est basé sur l’équipement de test, les scénarios de tests et les moyens d’aide à disposition.</li><li>Il est facilement compréhensible.</li><li>Les <mark>actions et les paramètres sont décrits sans aucune ambiguité</mark>.</li><li>Tous les résultats des tests sont documentés.</li></ol>",
         "qual2": "Trois des aspects sont bien remplis.",
         "qual1": "Deux des aspects sont bien remplis.",
         "qual0": "Moins de deux aspects sont bien remplis."
@@ -295,13 +295,13 @@
   "Partie C": {
     "part": "C",
     "name": "Entretien professionnel et présentation",
-    "total_txt": "Total partie 3 (30points max)",
+    "total_txt": "Total partie 3 (30 points max)",
     "line": [
       {
         "id": "C1",
         "description":"Gestion du temps, structure",
         "header": "La structure et le contenu de la présentation se limitent aux principaux aspects (tâches, déroulement, résultats) du TPI. Le temps imparti pour la présentation doit être respecté.",
-        "qual3": "<ol><li>La présentation comporte une introduction avec un bref aperçu qui fait le lien avec la suite de la présentation et contient donc une partie centrale ainsi qu’une conclusion comprenant une évaluation critique du travail effectué.</li><li>La présentation fait ressortir les aspects essentiels du résultat du TPI.</li><li>La présentation se concentre sur les aspects pertinents.</li><li>La présentation est faite dans un ordre logique et construite de manière cohérente.</li><li>Le temps de présentation est strictement respecté.</li></ol>",
+        "qual3": "<ol><li>La présentation comporte une introduction avec un bref aperçu qui fait le lien avec la suite de la présentation et contient donc une partie centrale ainsi qu’une conclusion comprenant une évaluation critique du travail effectué.</li><li>La présentation fait ressortir les <mark>aspects essentiels du résultat du TPI</mark>.</li><li>La présentation se concentre sur les aspects pertinents.</li><li>La présentation est faite dans un ordre logique et construite de manière cohérente.</li><li>Le temps de présentation est <mark>strictement respecté</mark>.</li></ol>",
         "qual2": "Trois points des points 1 à 4 sont remplis ou le temps de présentation n’a pas été dépassé de plus de 2 minutes.",
         "qual1": "Deux points des points 1 à 4 sont respectés ou le temps de présentation n’a pas été dépassé ou été inférieur de plus de 4 minutes.",
         "qual0": "Un seul point des points 1 à 4 est rempli ou le temps de présentation a été dépassé ou été inférieur de plus de 4 minutes."
@@ -320,8 +320,8 @@
       {
         "id": "C3",
         "description":"Technique de présentation",
-        "header": "La présentation se fait dans la langue employée à l’école. Le ou la candidat-e doit formuler des phrases correctes et intelligibles. Les formulations et le langage technique sont en adéquation avec le public cible (spécialistes, experts). Le volume de la voix, la vitesse d’élocution ainsi que la gestuelle sont adaptés au public cible et aux locaux.",
-        "qual3": "<ol><li>Les déclarations sont parfaitement formulées.</li><li>Les phrases sont formulées de manière claire, complète etl inguistiquement correcte.</li><li>La discussion est claire.</li><li>La gestuelle/les mimiques sont adaptées au public cible.</li><li>Un contact visuel fréquent est visible et ce avec tous les auditeurs.</li></ol>",
+        "header": "La présentation se fait dans la langue employée à l’école. Le ou la candidat-e doit formuler des <mark>phrases correctes et intelligibles</mark>. Les formulations et le langage technique sont en adéquation avec le public cible (spécialistes, experts). Le volume de la voix, la vitesse d’élocution ainsi que la gestuelle sont adaptés au public cible et aux locaux.",
+        "qual3": "<ol><li>Les déclarations sont parfaitement formulées.</li><li>Les phrases sont formulées de manière claire, complète etl inguistiquement correcte.</li><li>La discussion est claire.</li><li>La gestuelle/les mimiques sont adaptées au public cible.</li><li>Un <mark>contact visuel fréquent</mark> est visible et ce avec tous les auditeurs.</li></ol>",
         "qual2": "Quatre points sont remplis.",
         "qual1": "Trois points sont remplis.",
         "qual0": "Deux points ou moins de deux points sont remplis."
@@ -341,60 +341,60 @@
         "id": "C5",
         "description":"Question des experts 1",
         "header": "Le candidat est-il apte à répondre à la question/l'ensemble des experts concernant son travail de manière correcte et suffisamment professionnelle? L’étendue et le degré de finition du produit correspondent au temps investi.",
-        "qual3": "Les réponses aux questions traitent de tous les aspects de façon professionnelle et différenciée. Les déclarations faites sont, lorsque nécessaire, étayées pardes exemples ou assorties de conclusions logiques. Les réponses sont correctes et reflètent les compétences techniques. Le ou la candidat-e peut aussi fournir des renseignements précis sur des détails. Il ou elle répond avec exactitude aux questions des experts, pose des questions si nécessaire et adopte un comportement correct.",
-        "qual2": "Les réponses aux questions négligent un ou plusieurs aspects peu importants ou un aspect d'importance cruciale n'est pas suffisamment éclairci. La plupart des déclarations sont illustrées par des exemples ou des conclusions logiques lorsque cela est nécessaire. Le candidat fournit principalement des réponses correctes et peut généralement répondre à des questions détaillées par des renseignements précis.",
-        "qual1": "Les réponses aux questions négligent un aspect de grande importance ou des aspects d'importance cruciale ne sont pas suffisamment éclaircis. Un grand nombre de déclarations ne sont pas illustrées par des exemples ou des conclusions logiques lorsque cela est nécessaire. Le candidat fournit souvent des réponses erronées ou imprécises.",
-        "qual0": "Le candidat ne peut pas répondre correctement à la question/à l'ensemble de questions concernant son travail d'examen."
+        "qual3": "Les réponses aux questions traitent de tous les aspects de façon professionnelle et différenciée. Les déclarations faites sont, lorsque nécessaire, étayées par des <mark>exemples</mark> ou assorties de conclusions logiques. Les réponses sont correctes et reflètent les compétences techniques. Le ou la candidat-e peut aussi fournir des <mark>renseignements précis</mark> sur des détails. Il ou elle <mark>répond avec exactitude</mark> aux questions des experts, pose des questions si nécessaire et adopte un comportement correct.",
+        "qual2": "Les réponses aux questions négligent un ou plusieurs aspects <mark>peu importants</mark> ou un aspect d'importance cruciale n'est pas suffisamment éclairci. La plupart des déclarations sont illustrées par des exemples ou des conclusions logiques lorsque cela est nécessaire. Le candidat fournit principalement des réponses correctes et peut généralement répondre à des questions détaillées par des renseignements précis.",
+        "qual1": "Les réponses aux questions négligent un aspect de <mark>grande importance</mark> ou des aspects d'importance cruciale ne sont pas suffisamment éclaircis. Un grand nombre de déclarations ne sont pas illustrées par des exemples ou des conclusions logiques lorsque cela est nécessaire. Le candidat fournit souvent des réponses erronées ou imprécises.",
+        "qual0": "Le candidat <mark>ne peut pas répondre correctement</mark> à la question/à l'ensemble de questions concernant son travail d'examen."
       }
       ,
       {
         "id": "C6",
         "description":"Question des experts 2",
         "header": "Le candidat est-il apte à répondre à la question/l'ensemble des experts concernant son travail de manière correcte et suffisamment professionnelle? L’étendue et le degré de finition du produit correspondent au temps investi.",
-        "qual3": "Les réponses aux questions traitent de tous les aspects de façon professionnelle et différenciée. Les déclarations faites sont, lorsque nécessaire, étayées pardes exemples ou assorties de conclusions logiques. Les réponses sont correctes et reflètent les compétences techniques. Le ou la candidat-e peut aussi fournir des renseignements précis sur des détails. Il ou elle répond avec exactitude aux questions des experts, pose des questions si nécessaire et adopte un comportement correct.",
-        "qual2": "Les réponses aux questions négligent un ou plusieurs aspects peu importants ou un aspect d'importance cruciale n'est pas suffisamment éclairci. La plupart des déclarations sont illustrées par des exemples ou des conclusions logiques lorsque cela est nécessaire. Le candidat fournit principalement des réponses correctes et peut généralement répondre à des questions détaillées par des renseignements précis.",
-        "qual1": "Les réponses aux questions négligent un aspect de grande importance ou des aspects d'importance cruciale ne sont pas suffisamment éclaircis. Un grand nombre de déclarations ne sont pas illustrées par des exemples ou des conclusions logiques lorsque cela est nécessaire. Le candidat fournit souvent des réponses erronées ou imprécises.",
-        "qual0": "Le candidat ne peut pas répondre correctement à la question/à l'ensemble de questions concernant son travail d'examen."
+        "qual3": "Les réponses aux questions traitent de tous les aspects de façon professionnelle et différenciée. Les déclarations faites sont, lorsque nécessaire, étayées par des <mark>exemples</mark> ou assorties de conclusions logiques. Les réponses sont correctes et reflètent les compétences techniques. Le ou la candidat-e peut aussi fournir des <mark>renseignements précis</mark> sur des détails. Il ou elle <mark>répond avec exactitude</mark> aux questions des experts, pose des questions si nécessaire et adopte un comportement correct.",
+        "qual2": "Les réponses aux questions négligent un ou plusieurs aspects <mark>peu importants</mark> ou un aspect d'importance cruciale n'est pas suffisamment éclairci. La plupart des déclarations sont illustrées par des exemples ou des conclusions logiques lorsque cela est nécessaire. Le candidat fournit principalement des réponses correctes et peut généralement répondre à des questions détaillées par des renseignements précis.",
+        "qual1": "Les réponses aux questions négligent un aspect de <mark>grande importance</mark> ou des aspects d'importance cruciale ne sont pas suffisamment éclaircis. Un grand nombre de déclarations ne sont pas illustrées par des exemples ou des conclusions logiques lorsque cela est nécessaire. Le candidat fournit souvent des réponses erronées ou imprécises.",
+        "qual0": "Le candidat <mark>ne peut pas répondre correctement</mark> à la question/à l'ensemble de questions concernant son travail d'examen."
       }
       ,
       {
         "id": "C7",
         "description":"Question des experts 3",
         "header": "Le candidat est-il apte à répondre à la question/l'ensemble des experts concernant son travail de manière correcte et suffisamment professionnelle? L’étendue et le degré de finition du produit correspondent au temps investi.",
-        "qual3": "Les réponses aux questions traitent de tous les aspects de façon professionnelle et différenciée. Les déclarations faites sont, lorsque nécessaire, étayées pardes exemples ou assorties de conclusions logiques. Les réponses sont correctes et reflètent les compétences techniques. Le ou la candidat-e peut aussi fournir des renseignements précis sur des détails. Il ou elle répond avec exactitude aux questions des experts, pose des questions si nécessaire et adopte un comportement correct.",
-        "qual2": "Les réponses aux questions négligent un ou plusieurs aspects peu importants ou un aspect d'importance cruciale n'est pas suffisamment éclairci. La plupart des déclarations sont illustrées par des exemples ou des conclusions logiques lorsque cela est nécessaire. Le candidat fournit principalement des réponses correctes et peut généralement répondre à des questions détaillées par des renseignements précis.",
-        "qual1": "Les réponses aux questions négligent un aspect de grande importance ou des aspects d'importance cruciale ne sont pas suffisamment éclaircis. Un grand nombre de déclarations ne sont pas illustrées par des exemples ou des conclusions logiques lorsque cela est nécessaire. Le candidat fournit souvent des réponses erronées ou imprécises.",
-        "qual0": "Le candidat ne peut pas répondre correctement à la question/à l'ensemble de questions concernant son travail d'examen."
+        "qual3": "Les réponses aux questions traitent de tous les aspects de façon professionnelle et différenciée. Les déclarations faites sont, lorsque nécessaire, étayées par des <mark>exemples</mark> ou assorties de conclusions logiques. Les réponses sont correctes et reflètent les compétences techniques. Le ou la candidat-e peut aussi fournir des <mark>renseignements précis</mark> sur des détails. Il ou elle <mark>répond avec exactitude</mark> aux questions des experts, pose des questions si nécessaire et adopte un comportement correct.",
+        "qual2": "Les réponses aux questions négligent un ou plusieurs aspects <mark>peu importants</mark> ou un aspect d'importance cruciale n'est pas suffisamment éclairci. La plupart des déclarations sont illustrées par des exemples ou des conclusions logiques lorsque cela est nécessaire. Le candidat fournit principalement des réponses correctes et peut généralement répondre à des questions détaillées par des renseignements précis.",
+        "qual1": "Les réponses aux questions négligent un aspect de <mark>grande importance</mark> ou des aspects d'importance cruciale ne sont pas suffisamment éclaircis. Un grand nombre de déclarations ne sont pas illustrées par des exemples ou des conclusions logiques lorsque cela est nécessaire. Le candidat fournit souvent des réponses erronées ou imprécises.",
+        "qual0": "Le candidat <mark>ne peut pas répondre correctement</mark> à la question/à l'ensemble de questions concernant son travail d'examen."
       }
       ,
       {
         "id": "C8",
         "description":"Question des experts 4",
         "header": "Le candidat est-il apte à répondre à la question/l'ensemble des experts concernant son travail de manière correcte et suffisamment professionnelle? L’étendue et le degré de finition du produit correspondent au temps investi.",
-        "qual3": "Les réponses aux questions traitent de tous les aspects de façon professionnelle et différenciée. Les déclarations faites sont, lorsque nécessaire, étayées pardes exemples ou assorties de conclusions logiques. Les réponses sont correctes et reflètent les compétences techniques. Le ou la candidat-e peut aussi fournir des renseignements précis sur des détails. Il ou elle répond avec exactitude aux questions des experts, pose des questions si nécessaire et adopte un comportement correct.",
-        "qual2": "Les réponses aux questions négligent un ou plusieurs aspects peu importants ou un aspect d'importance cruciale n'est pas suffisamment éclairci. La plupart des déclarations sont illustrées par des exemples ou des conclusions logiques lorsque cela est nécessaire. Le candidat fournit principalement des réponses correctes et peut généralement répondre à des questions détaillées par des renseignements précis.",
-        "qual1": "Les réponses aux questions négligent un aspect de grande importance ou des aspects d'importance cruciale ne sont pas suffisamment éclaircis. Un grand nombre de déclarations ne sont pas illustrées par des exemples ou des conclusions logiques lorsque cela est nécessaire. Le candidat fournit souvent des réponses erronées ou imprécises.",
-        "qual0": "Le candidat ne peut pas répondre correctement à la question/à l'ensemble de questions concernant son travail d'examen."
+        "qual3": "Les réponses aux questions traitent de tous les aspects de façon professionnelle et différenciée. Les déclarations faites sont, lorsque nécessaire, étayées par des <mark>exemples</mark> ou assorties de conclusions logiques. Les réponses sont correctes et reflètent les compétences techniques. Le ou la candidat-e peut aussi fournir des <mark>renseignements précis</mark> sur des détails. Il ou elle <mark>répond avec exactitude</mark> aux questions des experts, pose des questions si nécessaire et adopte un comportement correct.",
+        "qual2": "Les réponses aux questions négligent un ou plusieurs aspects <mark>peu importants</mark> ou un aspect d'importance cruciale n'est pas suffisamment éclairci. La plupart des déclarations sont illustrées par des exemples ou des conclusions logiques lorsque cela est nécessaire. Le candidat fournit principalement des réponses correctes et peut généralement répondre à des questions détaillées par des renseignements précis.",
+        "qual1": "Les réponses aux questions négligent un aspect de <mark>grande importance</mark> ou des aspects d'importance cruciale ne sont pas suffisamment éclaircis. Un grand nombre de déclarations ne sont pas illustrées par des exemples ou des conclusions logiques lorsque cela est nécessaire. Le candidat fournit souvent des réponses erronées ou imprécises.",
+        "qual0": "Le candidat <mark>ne peut pas répondre correctement</mark> à la question/à l'ensemble de questions concernant son travail d'examen."
       }
       ,
       {
         "id": "C9",
         "description":"Question des experts 5",
         "header": "Le candidat est-il apte à répondre à la question/l'ensemble des experts concernant son travail de manière correcte et suffisamment professionnelle? L’étendue et le degré de finition du produit correspondent au temps investi.",
-        "qual3": "Les réponses aux questions traitent de tous les aspects de façon professionnelle et différenciée. Les déclarations faites sont, lorsque nécessaire, étayées pardes exemples ou assorties de conclusions logiques. Les réponses sont correctes et reflètent les compétences techniques. Le ou la candidat-e peut aussi fournir des renseignements précis sur des détails. Il ou elle répond avec exactitude aux questions des experts, pose des questions si nécessaire et adopte un comportement correct.",
-        "qual2": "Les réponses aux questions négligent un ou plusieurs aspects peu importants ou un aspect d'importance cruciale n'est pas suffisamment éclairci. La plupart des déclarations sont illustrées par des exemples ou des conclusions logiques lorsque cela est nécessaire. Le candidat fournit principalement des réponses correctes et peut généralement répondre à des questions détaillées par des renseignements précis.",
-        "qual1": "Les réponses aux questions négligent un aspect de grande importance ou des aspects d'importance cruciale ne sont pas suffisamment éclaircis. Un grand nombre de déclarations ne sont pas illustrées par des exemples ou des conclusions logiques lorsque cela est nécessaire. Le candidat fournit souvent des réponses erronées ou imprécises.",
-        "qual0": "Le candidat ne peut pas répondre correctement à la question/à l'ensemble de questions concernant son travail d'examen."
+        "qual3": "Les réponses aux questions traitent de tous les aspects de façon professionnelle et différenciée. Les déclarations faites sont, lorsque nécessaire, étayées par des <mark>exemples</mark> ou assorties de conclusions logiques. Les réponses sont correctes et reflètent les compétences techniques. Le ou la candidat-e peut aussi fournir des <mark>renseignements précis</mark> sur des détails. Il ou elle <mark>répond avec exactitude</mark> aux questions des experts, pose des questions si nécessaire et adopte un comportement correct.",
+        "qual2": "Les réponses aux questions négligent un ou plusieurs aspects <mark>peu importants</mark> ou un aspect d'importance cruciale n'est pas suffisamment éclairci. La plupart des déclarations sont illustrées par des exemples ou des conclusions logiques lorsque cela est nécessaire. Le candidat fournit principalement des réponses correctes et peut généralement répondre à des questions détaillées par des renseignements précis.",
+        "qual1": "Les réponses aux questions négligent un aspect de <mark>grande importance</mark> ou des aspects d'importance cruciale ne sont pas suffisamment éclaircis. Un grand nombre de déclarations ne sont pas illustrées par des exemples ou des conclusions logiques lorsque cela est nécessaire. Le candidat fournit souvent des réponses erronées ou imprécises.",
+        "qual0": "Le candidat <mark>ne peut pas répondre correctement</mark> à la question/à l'ensemble de questions concernant son travail d'examen."
       }
       ,
       {
         "id": "C10",
         "description":"Question des experts 6",
         "header": "Le candidat est-il apte à répondre à la question/l'ensemble des experts concernant son travail de manière correcte et suffisamment professionnelle? L’étendue et le degré de finition du produit correspondent au temps investi.",
-        "qual3": "Les réponses aux questions traitent de tous les aspects de façon professionnelle et différenciée. Les déclarations faites sont, lorsque nécessaire, étayées pardes exemples ou assorties de conclusions logiques. Les réponses sont correctes et reflètent les compétences techniques. Le ou la candidat-e peut aussi fournir des renseignements précis sur des détails. Il ou elle répond avec exactitude aux questions des experts, pose des questions si nécessaire et adopte un comportement correct.",
-        "qual2": "Les réponses aux questions négligent un ou plusieurs aspects peu importants ou un aspect d'importance cruciale n'est pas suffisamment éclairci. La plupart des déclarations sont illustrées par des exemples ou des conclusions logiques lorsque cela est nécessaire. Le candidat fournit principalement des réponses correctes et peut généralement répondre à des questions détaillées par des renseignements précis.",
-        "qual1": "Les réponses aux questions négligent un aspect de grande importance ou des aspects d'importance cruciale ne sont pas suffisamment éclaircis. Un grand nombre de déclarations ne sont pas illustrées par des exemples ou des conclusions logiques lorsque cela est nécessaire. Le candidat fournit souvent des réponses erronées ou imprécises.",
-        "qual0": "Le candidat ne peut pas répondre correctement à la question/à l'ensemble de questions concernant son travail d'examen."
+        "qual3": "Les réponses aux questions traitent de tous les aspects de façon professionnelle et différenciée. Les déclarations faites sont, lorsque nécessaire, étayées par des <mark>exemples</mark> ou assorties de conclusions logiques. Les réponses sont correctes et reflètent les compétences techniques. Le ou la candidat-e peut aussi fournir des <mark>renseignements précis</mark> sur des détails. Il ou elle <mark>répond avec exactitude</mark> aux questions des experts, pose des questions si nécessaire et adopte un comportement correct.",
+        "qual2": "Les réponses aux questions négligent un ou plusieurs aspects <mark>peu importants</mark> ou un aspect d'importance cruciale n'est pas suffisamment éclairci. La plupart des déclarations sont illustrées par des exemples ou des conclusions logiques lorsque cela est nécessaire. Le candidat fournit principalement des réponses correctes et peut généralement répondre à des questions détaillées par des renseignements précis.",
+        "qual1": "Les réponses aux questions négligent un aspect de <mark>grande importance</mark> ou des aspects d'importance cruciale ne sont pas suffisamment éclaircis. Un grand nombre de déclarations ne sont pas illustrées par des exemples ou des conclusions logiques lorsque cela est nécessaire. Le candidat fournit souvent des réponses erronées ou imprécises.",
+        "qual0": "Le candidat <mark>ne peut pas répondre correctement</mark> à la question/à l'ensemble de questions concernant son travail d'examen."
       }
 
     ]
