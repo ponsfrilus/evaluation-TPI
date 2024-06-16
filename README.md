@@ -16,7 +16,7 @@ Les objectifs de cette application sont :
   * [x] Elle doit utiliser le [stockage local du navigateur] (permettant de
     fermer le navigateur et de ne pas perdre le contenu lorsqu'on revisite la
     page) ;
-  * [ ] Elle offre la possibilité d'exporter et d'importer le contenu des champs
+  * [x] Elle offre la possibilité d'exporter et d'importer le contenu des champs
     via un fichier [JSON] afin de permettre l'échange d'évaluation entre
     intéressé·e·s ;
   * [x] L'utilisateur·rice doit pouvoir exporter le document, mis en page et

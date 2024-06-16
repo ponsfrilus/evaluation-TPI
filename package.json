@@ -1,6 +1,6 @@
 {
   "name": "evaluation-tpi",
-  "version": "1.1.1",
+  "version": "1.1.3",
   "description": "Procédure de qualification : 88600/1/2/3 Informaticienne CFC/Informaticien CFC (Ordonnance 2014)",
   "private": true,
   "homepage": ".",
@@ -42,5 +42,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "engines": {
+    "npm": ">=7.0.0 <9.0.0",
+    "node": ">=15.0.0 <17.0.0"
   }
 }
